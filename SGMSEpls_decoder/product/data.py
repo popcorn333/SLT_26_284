@@ -17,7 +17,6 @@ from text import text_to_sequence, cmudict
 from text.symbols import symbols
 from utils import parse_filelist, intersperse
 from model.utils import fix_len_compatibility
-from params import seed as random_seed
 from librosa.filters import mel as librosa_mel_fn
 
 import sys
@@ -186,7 +185,7 @@ class TextMelSpeakerDataset(torch.utils.data.Dataset):
         self.f_min = f_min
         self.f_max = f_max
         self.add_blank = add_blank
-        random.seed(random_seed)
+        random.seed(20)
         random.shuffle(self.filelist)
 
     def get_triplet(self, line):

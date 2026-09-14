@@ -2,7 +2,6 @@
 import json
 import re
 import torch
-import params
 import shutil
 import numpy as np
 from model import GradTTS

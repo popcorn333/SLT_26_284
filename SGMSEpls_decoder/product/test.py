@@ -1,3 +1,2 @@
-import params
-a=params.a
+a=0
 print(a)
