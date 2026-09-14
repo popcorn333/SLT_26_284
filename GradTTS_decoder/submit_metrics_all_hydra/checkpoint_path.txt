@@ -1,0 +1,10 @@
+/mnt/parscratch/users/acp23xt/private/DTDM_sgmse_stanage/add/Hydra_add/model.masking.a:${model.masking.a}/checkpoint/grad_295.pt
+/mnt/parscratch/users/acp23xt/private/DTDM_sgmse_stanage/blur/Hydra_blur/model.masking.b:${model.masking.b}/checkpoint/grad_295.pt
+/mnt/parscratch/users/acp23xt/private/DTDM_sgmse_stanage/blur_ezalg/Hydra_blur/model.masking.b:${model.masking.b}/checkpoint/grad_295.pt
+/mnt/parscratch/users/acp23xt/private/DTDM_sgmse_stanage/fm/Hydra_fm/model.masking.a:${model.masking.a}/checkpoint/grad_295.pt
+/mnt/parscratch/users/acp23xt/private/DTDM_sgmse_stanage/fmDT/Hydra_fmDT/model.masking.a:${model.masking.a}/checkpoint/grad_295.pt
+/mnt/parscratch/users/acp23xt/private/DTDM_sgmse_stanage/levy/Hydra_levy/model.masking.alpha:${model.masking.alpha}/checkpoint/grad_295.pt
+/mnt/parscratch/users/acp23xt/private/DTDM_sgmse_stanage/mask/Hydra_mask/model.masking.a:${model.masking.a}/checkpoint/grad_295.pt
+/mnt/parscratch/users/acp23xt/private/DTDM_sgmse_stanage/product/Hydra_product/model.masking.a:${model.masking.a}/checkpoint/grad_295.pt
+/mnt/parscratch/users/acp23xt/private/DTDM_sgmse_stanage/score/Hydra_score/model.masking.a:${model.masking.a}/checkpoint/grad_295.pt
+/mnt/parscratch/users/acp23xt/private/DTDM_sgmse_stanage/scoreDT/Hydra_scoreDT/model.masking.a:${model.masking.a}/checkpoint/grad_295.pt

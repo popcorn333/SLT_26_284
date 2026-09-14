@@ -1,0 +1,1 @@
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet/scoreDT/scoreDT_inf/model.masking.a:1.0/test/converted/Epoch_495

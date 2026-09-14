@@ -1,0 +1,10 @@
+complete
+folders=10
+excluded_folder=fm
+pairs=29
+wavs_per_pair=488
+summary_rows=29
+loss_configurations=29
+loss_epoch_records=17371
+audited_jobs=123
+terminal_logs=238

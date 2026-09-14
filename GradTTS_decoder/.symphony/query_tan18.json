@@ -1,0 +1,3 @@
+{
+  "query": "query { issue(id: \"c19d6cd8-6050-4bf4-ac0f-f5886d45476d\") { id identifier state { id name } project { id slugId name } labels { nodes { id name } } } issueLabels(first: 100) { nodes { id name } } }"
+}

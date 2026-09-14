@@ -1,0 +1,235 @@
+# Copyright (C) 2021. Huawei Technologies Co., Ltd. All rights reserved.
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the MIT License.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# MIT License for more details.
+
+import math
+import torch
+import numpy as np
+from scipy.fftpack import dct, idct
+from torch.distributions.multivariate_normal import MultivariateNormal
+from einops import rearrange
+import matplotlib.pyplot as plot
+import os
+from model.base import BaseModule
+from model.Unet_wote import GradLogPEstimator2d
+def pt_to_pdf(pt, pdf, vmin=-12.5, vmax=0.0):
+    spec = pt
+    fig = plot.figure(figsize=(20, 4), tight_layout=True)
+    subfig = fig.add_subplot()
+    image = subfig.imshow(
+        spec,
+        cmap="viridis",   # matches the screenshot
+        origin="lower",
+        aspect="equal",
+        interpolation="none",
+        vmax=vmax,
+        vmin=vmin
+    )
+    fig.colorbar(mappable=image, orientation='vertical', ax=subfig, shrink=0.5)
+    plot.savefig(pdf, format="pdf")
+    plot.close()
+
+class Mish(BaseModule):
+    def forward(self, x):
+        return x * torch.tanh(torch.nn.functional.softplus(x))
+
+
+class Upsample(BaseModule):
+    def __init__(self, dim):
+        super(Upsample, self).__init__()
+        self.conv = torch.nn.ConvTranspose2d(dim, dim, 4, 2, 1)
+
+    def forward(self, x):
+        x = torch.clamp(x, min=-1e3, max=1e3)
+        return self.conv(x)
+
+
+class Downsample(BaseModule):
+    def __init__(self, dim):
+        super(Downsample, self).__init__()
+        self.conv = torch.nn.Conv2d(dim, dim, 3, 2, 1)
+
+    def forward(self, x):
+        x = torch.clamp(x, min=-1e3, max=1e3)
+        return self.conv(x)
+
+
+class Rezero(BaseModule):
+    def __init__(self, fn):
+        super(Rezero, self).__init__()
+        self.fn = fn
+        self.g = torch.nn.Parameter(torch.zeros(1))
+
+    def forward(self, x):
+        return self.fn(x) * self.g
+
+
+class Block(BaseModule):
+    def __init__(self, dim, dim_out, groups=8):
+        super(Block, self).__init__()
+        self.block = torch.nn.Sequential(torch.nn.Conv2d(dim, dim_out, 3, 
+                                         padding=1), torch.nn.GroupNorm(
+                                         groups, dim_out), Mish())
+
+    def forward(self, x, mask):
+        x = torch.clamp(x, min=-1e3, max=1e3)
+        output = self.block(x * mask)
+        return output * mask
+
+
+class ResnetBlock(BaseModule):
+    def __init__(self, dim, dim_out, time_emb_dim, groups=8):
+        super(ResnetBlock, self).__init__()
+        self.mlp = torch.nn.Sequential(Mish(), torch.nn.Linear(time_emb_dim,
+                                                               dim_out))
+
+        self.block1 = Block(dim, dim_out, groups=groups)
+        self.block2 = Block(dim_out, dim_out, groups=groups)
+        if dim != dim_out:
+            self.res_conv = torch.nn.Conv2d(dim, dim_out, 1)
+        else:
+            self.res_conv = torch.nn.Identity()
+
+    def forward(self, x, mask, time_emb):
+        h = self.block1(x, mask)
+        h += self.mlp(time_emb).unsqueeze(-1).unsqueeze(-1)
+        h = self.block2(h, mask)
+        output = h + self.res_conv(x * mask)
+        return output
+
+class LinearAttention(BaseModule):
+    def __init__(self, dim, heads=4, dim_head=32):
+        super(LinearAttention, self).__init__()
+        self.heads = heads
+        hidden_dim = dim_head * heads
+        self.to_qkv = torch.nn.Conv2d(dim, hidden_dim * 3, 1, bias=False)
+        self.to_out = torch.nn.Conv2d(hidden_dim, dim, 1)            
+
+    def forward(self, x):
+        x = torch.clamp(x, min=-1e3, max=1e3)
+        b, c, h, w = x.shape
+        qkv = self.to_qkv(x)
+        q, k, v = rearrange(qkv, 'b (qkv heads c) h w -> qkv b heads c (h w)', 
+                            heads = self.heads, qkv=3)            
+
+
+        k = k.softmax(dim=-1)
+        context = torch.einsum('bhdn,bhen->bhde', k, v)
+        out = torch.einsum('bhde,bhdn->bhen', context, q)
+        out = rearrange(out, 'b heads c (h w) -> b (heads c) h w', 
+                        heads=self.heads, h=h, w=w)
+        return self.to_out(out)
+
+
+class Residual(BaseModule):
+    def __init__(self, fn):
+        super(Residual, self).__init__()
+        self.fn = fn
+
+    def forward(self, x, *args, **kwargs):
+        x = torch.clamp(x, min=-1e3, max=1e3)
+        output = self.fn(x, *args, **kwargs) + x
+        return output
+
+class SinusoidalPosEmb(BaseModule):
+    def __init__(self, dim):
+        super(SinusoidalPosEmb, self).__init__()
+        self.dim = dim
+
+    def forward(self, x, scale=1000):
+        device = x.device
+        half_dim = self.dim // 2
+        emb = math.log(10000) / (half_dim - 1)
+        emb = torch.exp(torch.arange(half_dim, device=device).float() * -emb)
+        emb = scale * x.unsqueeze(1) * emb.unsqueeze(0)
+        emb = torch.cat((emb.sin(), emb.cos()), dim=-1)
+        return emb
+
+
+
+
+class Diffusion(BaseModule):
+    def __init__(self, cfg):
+        super(Diffusion, self).__init__()
+        self.n_spks = cfg.data.n_spks
+        self.spk_emb_dim = cfg.model.spk_emb_dim
+        self.n_feats = cfg.data.n_feats
+        
+        self.dim = cfg.model.decoder.dim
+        self.pe_scale = cfg.model.decoder.pe_scale
+        
+        self.n_timesteps = cfg.training.n_timesteps
+        cfg = cfg.model.Masking
+        self.a = cfg.a
+        self.b = cfg.b
+        self.c = cfg.c
+        self.d = cfg.d
+        self.estimator = GradLogPEstimator2d(self.dim, n_spks=self.n_spks,
+                                             spk_emb_dim=self.spk_emb_dim,
+                                             pe_scale = self.pe_scale)
+
+
+    def flow_compute(self, X0, mask, noise, t):
+        flow = (1 - (1 - 1e-4) * t) * noise + t * X0
+        return flow * mask
+
+    def solve_euler(self, x, t_span, mu, mask, spks, cond):
+        os.makedirs(f'reverse_pass', exist_ok=True)
+        pt_to_pdf(x[0].cpu(), 'reverse_pass/10.pdf')
+
+        t, _, dt = t_span[0], t_span[-1], t_span[1] - t_span[0]
+
+        # I am storing this because I can later plot it by putting a debugger here and saving it to a file
+        # Or in future might add like a return_all_steps flag
+        sol = []
+        t = torch.tensor([t], device = mu.device)
+        for step in range(1, len(t_span)):
+            dphi_dt =  self.estimator(x, mask, mu, t, spks)
+            x = x + dt * dphi_dt
+            t = t + dt
+            n = len(t_span) - step 
+            pt_to_pdf(x[0].cpu(), f'reverse_pass/{n-1}.pdf')
+
+            sol.append(x)
+            if step < len(t_span) - 1:
+                dt = t_span[step + 1] - t
+
+        return sol[-1]
+
+    @torch.no_grad()
+    def reverse_diffusion(self, z, mask, mu, n_timesteps, stoc=False, spk=None):
+        Xn, _ = self.forward_diffusion(mu, mask, mu, n_timesteps * torch.ones(z.shape[0], dtype=z.dtype, device=z.device))
+        Xn = Xn * mask
+        #os.makedirs(f'reverse_pass', exist_ok=True)
+        #pt_to_pdf(Xn[0].cpu(), 'reverse_pass/10.pdf')
+
+        for n in range(n_timesteps):
+            n = n_timesteps - n #[n_timesteps, n_timesteps-1, ... ,1]
+            n = n * torch.ones(z.shape[0], dtype=z.dtype, device=z.device)
+
+            X0_est = self.estimator(Xn, mask, mu, n, spk)  #input N, Unet actually predicts M(N-1)
+            Xn, _ = self.forward_diffusion(X0_est, mask, mu, n-1)
+            #n = int(n[0].item())
+            #pt_to_pdf(Xn[0].cpu(), f'reverse_pass/{n-1}.pdf')
+
+        return Xn
+
+    @torch.no_grad()
+    def forward(self, z, mask, mu, n_timesteps, stoc=False, spk=None):
+        return self.reverse_diffusion(z, mask, mu, n_timesteps, stoc, spk)
+
+    def loss_t(self, x0, mask, mu, t, spk=None):
+        xt, z = self.forward_diffusion(x0, mask, mu, t)
+        time = t.unsqueeze(-1).unsqueeze(-1)
+
+        x0_est = self.estimator(xt, mask, mu, t, spk)
+        loss = torch.sum((x0_est - x0)**2) / (torch.sum(mask)*self.n_feats)
+        return loss, xt
+
+    def compute_loss(self, x0, mask, mu, spk=None, offset=1e-5):
+        t = torch.randint(1, self.n_timesteps + 1, (x0.shape[0],), device=x0.device).to(x0.dtype) / self.n_timesteps
+        return self.loss_t(x0, mask, mu, t, spk)

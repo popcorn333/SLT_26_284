@@ -1,0 +1,6 @@
+folder	sweep	gen	out	metric_job_id	wer_job_id	utmos_job_id
+fmDT	model.masking.a:0.2	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/fmDT_inf/model.masking.a:0.2/test/converted/Epoch_595	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/fmDT_inf/model.masking.a:0.2/test/metrics	11149886_0	11149887_0	11149888_0
+fmDT	model.masking.a:0.4	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/fmDT_inf/model.masking.a:0.4/test/converted/Epoch_595	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/fmDT_inf/model.masking.a:0.4/test/metrics	11149886_1	11149887_1	11149888_1
+fmDT	model.masking.a:0.6	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/fmDT_inf/model.masking.a:0.6/test/converted/Epoch_595	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/fmDT_inf/model.masking.a:0.6/test/metrics	11149886_2	11149887_2	11149888_2
+fmDT	model.masking.a:0.8	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/fmDT_inf/model.masking.a:0.8/test/converted/Epoch_595	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/fmDT_inf/model.masking.a:0.8/test/metrics	11149886_3	11149887_3	11149888_3
+fmDT	model.masking.a:1	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/fmDT_inf/model.masking.a:1/test/converted/Epoch_595	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/fmDT_inf/model.masking.a:1/test/metrics	11149886_4	11149887_4	11149888_4

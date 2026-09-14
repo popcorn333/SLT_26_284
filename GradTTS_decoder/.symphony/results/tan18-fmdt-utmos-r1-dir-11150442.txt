@@ -1,0 +1,1 @@
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/fmDT_inf/model.masking.a:0.4/test/converted/Epoch_595

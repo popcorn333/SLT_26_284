@@ -1,0 +1,9 @@
+*.pt
+*.pdf
+*.png
+*.log
+*.out
+*.bak*
+*.wav
+*.out
+converted/

@@ -1,0 +1,16 @@
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/add/add_inf/model.masking.a:0.2/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/add/add_inf/model.masking.a:0.4/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/add/add_inf/model.masking.a:0.6/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/blur/blur_inf/model.masking.b:10/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/blur/blur_inf/model.masking.b:20/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/blur/blur_inf/model.masking.b:40/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/fm/fm_inf/model.masking.a:1/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/fmDT/fmDT_inf/model.masking.a:1/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/levy/levy_inf/model.masking.alpha:1.8/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/levy/levy_inf/model.masking.alpha:1.9/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/mask/mask_inf/model.masking.a:1/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/product/product_inf/model.masking.a:0.2/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/product/product_inf/model.masking.a:0.4/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/product/product_inf/model.masking.a:0.6/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/score/score_inf/model.masking.a:1/test/metrics
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet_stanage/scoreDT/scoreDT_inf/model.masking.a:1/test/metrics

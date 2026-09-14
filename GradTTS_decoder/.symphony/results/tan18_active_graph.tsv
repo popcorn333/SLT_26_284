@@ -1,0 +1,43 @@
+stage	job_id	dependency	status_at_submission	detail
+fmDT_gpu_environment_probe_retry3	11141986		COMPLETED 0:0	clean login-shell probe passed on gpu05 with A100-SXM4-80GB, Python grad-tts-masking, PyTorch 2.2.1, and CUDA 12.1
+fmDT_checkpoint_prepare_retry3	11142108	afterok:11141986	COMPLETED 0:0	validated existing fmDT base checkpoint SHA-256 e83b05852ddf36c6249afcb2a02a62c6aecb67fd09b5bb2dde4ba9228d823b29 without overwriting it
+fmDT_run_array_retry3	11142109	afterok:11142108	SUBMITTED	fresh tasks 11142109_0 through 11142109_4 for model.masking.a=0.2,0.4,0.6,0.8,1; executes fmDT/run.sh in a node-local login environment; gpu33 and gpu34 excluded
+fmDT_acceptance_gate_retry3	11142110	afterok:11142109	SUBMITTED	validates all five task exit states and fresh epochs 1-599, checkpoints, and 488 Epoch_595 WAVs per configuration
+fmDT_training_loss_retry3	11142111	afterok:11142110	SUBMITTED	merges and validates 2,995 fresh fmDT epoch records into training_loss.log while preserving every non-fmDT row
+fmDT_dispatch_retry3	11142112	afterok:11142110	SUBMITTED	extracts all five fmDT gen/out pairs and submits metrics, WER, UTMOSv2, and combined summary dependencies
+out_of_scope_all_folder_bridge	11142159	afterok:11142112	CANCELLED_NEVER_STARTED	cancelled after the TAN-18 description's explicit fmDT-only override was re-read; no all-folder finalizer was submitted and no outputs were produced
+fmDT_completion_bridge_retry2	11143257	afterok:11142112	SUBMITTED	legacy all-bridge filename retained; after dispatcher completion it submits the terminal audit behind both the dynamic fmDT summary job and its own successful completion, eliminating an accounting race; the terminal payload preserves the five-row fresh fmDT artifacts and also writes combined ten-row TAN-18 artifacts after revalidating the completed scorex0 graph, sidecars, losses, and Slurm provenance
+cancelled_completion_bridge_retry1	11142295	afterok:11142112	CANCELLED_NEVER_STARTED	cancelled before start after static audit found its dynamically submitted terminal audit did not depend on the bridge itself even though terminal accounting validates the bridge; superseded safely by 11143257
+failed_retry2_graph	11141635-11141640		NOT_CREDITED	environment probe failed before training; dependent run, gate, loss, and dispatch produced no credited TAN-18 outputs
+failed_fmDT_run_array_retry1	11141599		FAILED/CANCELLED	tasks 0 and 1 failed on gpu34 before training because Symphony's CPU-node Lmod executable was absent there; tasks 2-4 and all afterok children were cancelled; zero epochs and zero WAVs produced
+cancelled_retry1_children	11141600-11141602		CANCELLED	acceptance, loss, and dispatcher children of failed retry array 11141599; never credited
+failed_fmDT_run_array	11141050		FAILED/CANCELLED	tasks 0-3 failed on gpu33 before training because Anaconda3/2022.10 was not resolvable; task 4 and afterok children were cancelled; no epochs or WAVs produced
+cancelled_failed_graph_children	11141051-11141053		CANCELLED	children of failed array 11141050; never credited
+failed_gpu33_module_probe	11141589		FAILED_TO_ALLOCATE	short diagnostic allocation could not start because gpu33 was busy; produced no repository outputs
+scorex0_source_run	10803830		REUSED_COMPLETED	five scorex0 configurations already validated by the existing all-folder completion graph
+scorex0_metrics	11104611-11104615		REUSED_COMPLETED	five scorex0 metric jobs, one per generated path
+scorex0_wer	11104616_29-11104616_33		REUSED_COMPLETED	five Whisper large-v3 WER array tasks
+scorex0_utmosv2	11104618_29-11104618_33		REUSED_COMPLETED	five UTMOSv2 array tasks
+scorex0_training_loss	11104619		REUSED_COMPLETED	shared dependency-held loss aggregation that produced five scorex0 configurations x epochs 1-599; the TAN-18 loss merge preserves and revalidates these 2,995 rows
+scorex0_source_summary	11104956		REUSED_COMPLETED	validated source summary whose scorex0 rows are recomputed from current per-WAV sidecars by the TAN-18 terminal audit
+scorex0_source_final_audit	11104981		REUSED_COMPLETED	terminal accounting, log, metric, loss, and coverage audit
+cancelled_prior_fmDT_run	11116063		CANCELLED_NEVER_STARTED	prior attempt cancelled before start and never credited
+cancelled_prior_fmDT_gate_loss_dispatch	11116064-11116066		CANCELLED_NEVER_STARTED	prior dependent jobs cancelled before start and never credited
+failed_dynamic_metric_jobs	11149435-11149439		FAILED 1:0	all five failed before metric work because Anaconda3/2025.06-1 was unavailable on their CPU nodes; zero sidecars produced and none credited
+retained_dynamic_wer_array	11149440_[0-4]		SUBMITTED	original Whisper large-v3 tasks retained for the retry graph
+retained_dynamic_utmos_array	11149441_[0-4]		SUBMITTED	original UTMOSv2 tasks retained for the retry graph
+unsatisfiable_dynamic_summary_final	11149442,11149445		PENDING_TO_CANCEL	original summary and terminal audit cannot satisfy after failed metrics; retry dispatcher cancels them before replacement submission
+fmDT_metric_retry_dispatch	11149572		SUBMITTED	submits five-task established-environment metric retry array, rewrites only metric mapping IDs, and submits replacement summary and terminal-audit dependencies while retaining WER/UTMOSv2 arrays
+failed_fmDT_metric_retry_dispatch	11149572		FAILED 1:0	cancelled stale dependents and submitted 11149575, then summary submission raced the fast metric failure; no summary/final replacement was created
+failed_fmDT_metric_retry_array	11149575		FAILED 1:0	all five tasks failed in F0 before sidecar work because the approved-tree TMPDIR exceeded the AF_UNIX socket length limit; zero F0/MCD sidecars produced
+fmDT_metric_retry2_dispatch	11149614	afterany:11149572	SUBMITTED	will submit retry2 metrics held, attach replacement summary/final dependencies, record all child IDs, then release the metric array; retains WER 11149440 and UTMOSv2 11149441
+failed_fmDT_metric_retry2_dispatch	11149614	afterany:11149572	FAILED 1:0	old WER tasks failed during summary dependency submission; held metric array 11149621 was cancelled before running and produced no output
+failed_fmDT_wer_array	11149440		FAILED/CANCELLED	tasks 0-2 failed before inference because login-node Lmod state could not resolve Anaconda3/2022.10; tasks 3-4 cancelled pending; zero WER sidecars produced
+cancelled_fmDT_utmos_array	11149441		CANCELLED_NEVER_STARTED	cancelled before allocation because it used the same fragile login-shell module environment as failed WER; zero UTMOSv2 sidecars produced
+fmDT_absolute_gpu_environment_probe	11149643		SUBMITTED	validates cached Whisper large-v3 and UTMOSv2 environments plus CUDA visibility without cluster modules
+fmDT_retry3_dispatch	11149644	afterok:11149643	SUBMITTED	will atomically submit five individually held metric, WER, and UTMOSv2 jobs, attach summary/final dependencies to all 15 explicit IDs, record them, then release
+fmDT_metric_retry4	11149886		SUBMITTED_HELD	five-task CPU metric array
+fmDT_wer_retry2	11149887		SUBMITTED_HELD	five-task Whisper large-v3 array
+fmDT_utmos_retry2	11149888		SUBMITTED_HELD	five-task UTMOSv2 array
+fmDT_summary_retry4	11149889	afterok:11149886:11149887:11149888	SUBMITTED	replacement summary
+fmDT_final_audit_retry4	11149890	afterok:11149889	SUBMITTED	terminal fmDT plus scorex0 audit and final report

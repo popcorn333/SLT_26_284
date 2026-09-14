@@ -1,0 +1,68 @@
+basename: one-shot
+data:
+  train_filelist_path: ../../resources/filelists/ljspeech/train.txt
+  dev_filelist_path: ../../resources/filelists/ljspeech/valid.txt
+  test_filelist_path: ../../resources/filelists/ljspeech/test.txt
+  cmudict_path: ../../resources/cmu_dictionary
+  add_blank: true
+  n_spks: 1
+  n_feats: 80
+  n_fft: 1024
+  sample_rate: 22050
+  hop_length: 256
+  win_length: 1024
+  f_min: 0
+  f_max: 8000
+eval:
+  split: test
+  starting_epoch: 36
+  ending_epoch: 60
+  n_timesteps: 1
+  checkpoint_dir: ../../Hydra_${basename}/${hydra:job.override_dirname}/checkpoint
+  code_dir: ../../
+  gt_dir: ground_truth
+  cvt_dir: converted
+  epoch_interval: 1
+  evaluation_mode: WAVPDFMEL
+  batch_size: 10
+  gpu: 1
+  spk: 0
+model:
+  spk_emb_dim: 128
+  encoder:
+    n_channels: 192
+    filter_channels: 768
+    filter_channels_dp: 256
+    n_layers: 6
+    kernel_size: 3
+    p_dropout: 0.1
+    n_heads: 2
+    window_size: 4
+  decoder:
+    dim: 64
+    beta_min: 0.05
+    beta_max: 20.0
+    pe_scale: 1000
+  masking:
+    a: 0.2
+    b: 0.01
+    c: 0
+    d: 0
+    l: 1
+    p: 0
+training:
+  load_encoder: true
+  load_decoder: false
+  train_encoder: false
+  n_timesteps: 10
+  tensorboard_dir: tb
+  start_checkpoint: null
+  checkpoint_save: checkpoint
+  test_size: 1
+  batch_size: 48
+  n_epochs: 800
+  learning_rate: 0.0001
+  seed: 37
+  save_every: 10
+  gpu: 0
+  num_workers: 4

@@ -1,0 +1,17 @@
+/exp/exp4/acp23xt/test_set/DiT/Hydra_Sum_Matcha_DiT-TF_eval/model.Masking.a:0.6__training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_Sum_Matcha_DiT-TF_eval/model.Masking.a:0.4__training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_Sum_Matcha_DiT-TF_eval/model.Masking.a:0.2__training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_levy_Matcha_DiT-TF_eval/model.Masking.alpha:2.0__training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_levy_Matcha_DiT-TF_eval/model.Masking.alpha:1.9__training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_levy_Matcha_DiT-TF_eval/model.Masking.alpha:1.8__training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_levy_Matcha_DiT-TF_eval/model.Masking.alpha:1.7__training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_FM_Matcha_DiT-TF_eval/training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_Product_Matcha_DiT-TF_eval/model.Masking.a:0.6__training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_Product_Matcha_DiT-TF_eval/model.Masking.a:0.4__training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_Product_Matcha_DiT-TF_eval/model.Masking.a:0.2__training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_FMDT_Matcha_DiT-TF_eval/training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_Warm_Matcha_DiT-TF_eval/training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/DiT/Hydra_Blur_Matcha_DiT-TF_eval/training.train_encoder:True/test/converted/10_steps/Epoch_1490.csv
+/exp/exp4/acp23xt/test_set/Unet/Hydra_ScoreDT_Unet-TD_eval/training.train_encoder:True/test/converted/10_steps/Epoch_590.csv
+/exp/exp4/acp23xt/test_set/Unet/Hydra_FM_Unet-TD_eval/training.train_encoder:True/test/converted/10_steps/Epoch_599.csv
+

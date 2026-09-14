@@ -1,0 +1,12 @@
+folder	run_path	tan18_scope	scope_reason
+add	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/add/run.sh	excluded	outside TAN-18 fresh and carried-result scope
+blur	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/blur/run.sh	excluded	outside TAN-18 fresh and carried-result scope
+fm	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fm/run.sh	excluded	outside TAN-18 fresh and carried-result scope
+fmDT	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/run.sh	included_fresh	requested fresh experiment
+levy	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/levy/run.sh	excluded	outside TAN-18 fresh and carried-result scope
+mask	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/mask/run.sh	excluded	outside TAN-18 fresh and carried-result scope
+one-shot	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/one-shot/run.sh	excluded	outside TAN-18 fresh and carried-result scope
+product	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/product/run.sh	excluded	outside TAN-18 fresh and carried-result scope
+score	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/score/run.sh	excluded	outside TAN-18 fresh and carried-result scope
+scoreDT	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/scoreDT/run.sh	excluded	outside TAN-18 fresh and carried-result scope
+scorex0	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/scorex0/run.sh	included_reused	workflow-required inventory addition with completed validated graph

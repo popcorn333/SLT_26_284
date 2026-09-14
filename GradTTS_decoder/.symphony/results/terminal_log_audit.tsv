@@ -1,0 +1,239 @@
+job_id	log_path	bytes	last_nonempty_line
+10800207	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/one-shot/slurm-10800207.out	57407501	end 500st epoch 2026-07-12 06:12:16
+10800210	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/levy/slurm-10800210.out	114997316	end 500st epoch 2026-07-13 02:26:33
+10800211	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/blur/slurm-10800211.out	172540658	end 500st epoch 2026-07-14 00:00:26
+10800213	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/mask/slurm-10800213.out	57526661	end 500st epoch 2026-07-12 08:07:24
+10800233	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/add/slurm-10800233.out	172613284	end 500st epoch 2026-07-13 22:57:23
+10800235	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/slurm-10800235.out	57254172	end 500st epoch 2026-07-12 09:52:46
+10800236	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/product/slurm-10800236.out	172454345	end 500st epoch 2026-07-14 01:15:55
+10803830	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/scorex0/slurm-10803830.out	287365689	end 500st epoch 2026-07-16 04:05:58
+10804134	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-add-0-10804134.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804134	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-add-0-10804134.out	880	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/add/add_inf/model.masking.a:0.2/test/converted/Epoch_495 count=488
+10804135	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-add-1-10804135.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804135	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-add-1-10804135.out	880	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/add/add_inf/model.masking.a:0.4/test/converted/Epoch_495 count=488
+10804136	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-blur-0-10804136.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804136	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-blur-0-10804136.out	881	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/blur/blur_inf/model.masking.b:10/test/converted/Epoch_495 count=488
+10804137	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-add-2-10804137.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804137	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-add-2-10804137.out	880	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/add/add_inf/model.masking.a:0.6/test/converted/Epoch_495 count=488
+10804138	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-blur-1-10804138.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804138	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-blur-1-10804138.out	881	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/blur/blur_inf/model.masking.b:20/test/converted/Epoch_495 count=488
+10804139	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-blur-2-10804139.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804139	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-blur-2-10804139.out	881	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/blur/blur_inf/model.masking.b:40/test/converted/Epoch_495 count=488
+10804140	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-scorex0-4-10804140.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804140	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-scorex0-4-10804140.out	904	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/scorex0/scorex0_inf/model.masking.a:0.2/test/converted/Epoch_495 count=488
+10804141	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-scorex0-0-10804141.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804141	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-scorex0-0-10804141.out	904	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/scorex0/scorex0_inf/model.masking.a:1.0/test/converted/Epoch_495 count=488
+10804142	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-fmDT-0-10804142.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804142	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-fmDT-0-10804142.out	876	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/fmDT/fmDT_inf/model.masking.a:1/test/converted/Epoch_495 count=488
+10804144	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-levy-0-10804144.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804144	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-levy-0-10804144.out	906	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/levy/levy_inf/model.masking.alpha:1.8/test/converted/Epoch_495 count=488
+10804145	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-levy-1-10804145.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804145	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-levy-1-10804145.out	906	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/levy/levy_inf/model.masking.alpha:1.9/test/converted/Epoch_495 count=488
+10804146	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-mask-0-10804146.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804146	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-mask-0-10804146.out	876	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/mask/mask_inf/model.masking.a:1/test/converted/Epoch_495 count=488
+10804148	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-score-3-10804148.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804148	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-score-3-10804148.out	892	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/score/score_inf/model.masking.a:0.4/test/converted/Epoch_495 count=488
+10804149	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-product-1-10804149.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804149	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-product-1-10804149.out	904	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/product/product_inf/model.masking.a:0.4/test/converted/Epoch_495 count=488
+10804150	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-one-shot-0-10804150.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804150	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-one-shot-0-10804150.out	910	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/one-shot/one-shot_inf/model.masking.a:0.2/test/converted/Epoch_495 count=488
+10804151	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-product-0-10804151.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804151	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-product-0-10804151.out	904	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/product/product_inf/model.masking.a:0.2/test/converted/Epoch_495 count=488
+10804152	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-product-2-10804152.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804152	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-product-2-10804152.out	904	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/product/product_inf/model.masking.a:0.6/test/converted/Epoch_495 count=488
+10804153	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-score-2-10804153.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804153	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-score-2-10804153.out	892	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/score/score_inf/model.masking.a:0.6/test/converted/Epoch_495 count=488
+10804154	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-score-4-10804154.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804154	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-score-4-10804154.out	892	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/score/score_inf/model.masking.a:0.2/test/converted/Epoch_495 count=488
+10804155	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-score-1-10804155.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804155	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-score-1-10804155.out	892	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/score/score_inf/model.masking.a:0.8/test/converted/Epoch_495 count=488
+10804156	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-scorex0-2-10804156.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804156	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-scorex0-2-10804156.out	904	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/scorex0/scorex0_inf/model.masking.a:0.6/test/converted/Epoch_495 count=488
+10804157	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-score-0-10804157.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804157	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-score-0-10804157.out	892	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/score/score_inf/model.masking.a:1.0/test/converted/Epoch_495 count=488
+10804158	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-scorex0-3-10804158.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804158	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-scorex0-3-10804158.out	904	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/scorex0/scorex0_inf/model.masking.a:0.4/test/converted/Epoch_495 count=488
+10804159	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-scorex0-1-10804159.err	962	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804159	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/gen3-scorex0-1-10804159.out	904	repaired /mnt/parscratch/users/acp23xt/private/DTDM_Unet/scorex0/scorex0_inf/model.masking.a:0.8/test/converted/Epoch_495 count=488
+10804165	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/score-rescue3-10804165.err	1297	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10804165	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/score-rescue3-10804165.out	8653	configuration 0.2 repaired and validated
+10884228	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/scoreDT-full-10884228.err	287265175	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+10884228	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/scoreDT-full-10884228.out	376576	Removing weight norm...
+11099158	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/scoredt-595-11099158.err	2302	"warnings.warn(""torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm."")"
+11099158	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/scoredt-595-11099158.out	3628	end 595st epoch 2026-08-01 10:02:38
+11104582	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-add-0-11104582.err	1072	2026-08-02 00:45:34,279 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104582	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-add-0-11104582.out	316	fresh MCD/logF0 sidecars validated: 488
+11104583	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-add-1-11104583.err	1072	2026-08-02 00:45:46,294 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104583	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-add-1-11104583.out	316	fresh MCD/logF0 sidecars validated: 488
+11104584	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-add-2-11104584.err	1072	2026-08-02 00:45:37,643 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104584	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-add-2-11104584.out	316	fresh MCD/logF0 sidecars validated: 488
+11104585	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-blur-0-11104585.err	1072	2026-08-02 00:45:34,305 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104585	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-blur-0-11104585.out	318	fresh MCD/logF0 sidecars validated: 488
+11104586	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-blur-1-11104586.err	1072	2026-08-02 00:47:26,700 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104586	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-blur-1-11104586.out	318	fresh MCD/logF0 sidecars validated: 488
+11104587	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-blur-2-11104587.err	1072	2026-08-02 00:46:19,873 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104587	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-blur-2-11104587.out	318	fresh MCD/logF0 sidecars validated: 488
+11104593	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-fmDT-0-11104593.err	1072	2026-08-02 00:46:04,366 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104593	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-fmDT-0-11104593.out	316	fresh MCD/logF0 sidecars validated: 488
+11104594	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-levy-0-11104594.err	1072	2026-08-02 00:46:04,865 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104594	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-levy-0-11104594.out	328	fresh MCD/logF0 sidecars validated: 488
+11104595	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-levy-1-11104595.err	1072	2026-08-02 00:46:00,799 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104595	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-levy-1-11104595.out	328	fresh MCD/logF0 sidecars validated: 488
+11104596	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-mask-0-11104596.err	1072	2026-08-02 00:46:06,171 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104596	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-mask-0-11104596.out	316	fresh MCD/logF0 sidecars validated: 488
+11104597	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-one-shot-0-11104597.err	1072	2026-08-02 00:45:40,055 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104597	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-one-shot-0-11104597.out	336	fresh MCD/logF0 sidecars validated: 488
+11104598	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-product-0-11104598.err	1072	2026-08-02 00:48:53,505 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104598	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-product-0-11104598.out	332	fresh MCD/logF0 sidecars validated: 488
+11104599	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-product-1-11104599.err	1072	2026-08-02 00:47:51,088 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104599	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-product-1-11104599.out	332	fresh MCD/logF0 sidecars validated: 488
+11104600	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-product-2-11104600.err	1072	2026-08-02 00:47:36,282 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104600	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-product-2-11104600.out	332	fresh MCD/logF0 sidecars validated: 488
+11104601	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-score-0-11104601.err	1072	2026-08-02 00:50:42,318 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104601	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-score-0-11104601.out	324	fresh MCD/logF0 sidecars validated: 488
+11104602	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-score-1-11104602.err	1072	2026-08-02 00:50:43,085 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104602	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-score-1-11104602.out	324	fresh MCD/logF0 sidecars validated: 488
+11104603	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-score-2-11104603.err	1072	2026-08-02 00:56:39,291 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104603	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-score-2-11104603.out	324	fresh MCD/logF0 sidecars validated: 488
+11104604	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-score-3-11104604.err	1072	2026-08-02 00:58:21,204 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104604	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-score-3-11104604.out	324	fresh MCD/logF0 sidecars validated: 488
+11104605	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-score-4-11104605.err	1072	2026-08-02 00:58:04,640 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104605	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-score-4-11104605.out	324	fresh MCD/logF0 sidecars validated: 488
+11104606	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scoreDT-0-11104606.err	1072	2026-08-02 00:58:10,879 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104606	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scoreDT-0-11104606.out	332	fresh MCD/logF0 sidecars validated: 488
+11104607	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scoreDT-1-11104607.err	1072	2026-08-02 00:58:09,805 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104607	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scoreDT-1-11104607.out	332	fresh MCD/logF0 sidecars validated: 488
+11104608	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scoreDT-2-11104608.err	1072	2026-08-02 00:58:14,553 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104608	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scoreDT-2-11104608.out	332	fresh MCD/logF0 sidecars validated: 488
+11104609	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scoreDT-3-11104609.err	1072	2026-08-02 00:58:09,209 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104609	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scoreDT-3-11104609.out	332	fresh MCD/logF0 sidecars validated: 488
+11104610	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scoreDT-4-11104610.err	1072	2026-08-02 00:58:40,130 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104610	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scoreDT-4-11104610.out	332	fresh MCD/logF0 sidecars validated: 488
+11104611	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scorex0-0-11104611.err	1072	2026-08-02 00:59:01,749 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104611	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scorex0-0-11104611.out	332	fresh MCD/logF0 sidecars validated: 488
+11104612	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scorex0-1-11104612.err	1072	2026-08-02 01:00:07,280 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104612	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scorex0-1-11104612.out	332	fresh MCD/logF0 sidecars validated: 488
+11104613	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scorex0-2-11104613.err	1072	2026-08-02 01:00:50,207 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104613	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scorex0-2-11104613.out	332	fresh MCD/logF0 sidecars validated: 488
+11104614	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scorex0-3-11104614.err	1072	2026-08-02 01:00:45,651 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104614	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scorex0-3-11104614.out	332	fresh MCD/logF0 sidecars validated: 488
+11104615	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scorex0-4-11104615.err	1072	2026-08-02 01:01:44,476 (MCD:275) INFO: Successfully finished MCD evaluation.
+11104615	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/metrics-scorex0-4-11104615.out	332	fresh MCD/logF0 sidecars validated: 488
+11104616_0	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_0.err	627	-------------------------------------------------------------------------------
+11104616_0	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_0.out	3393	fresh WER sidecars validated: 488
+11104616_1	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_1.err	627	-------------------------------------------------------------------------------
+11104616_1	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_1.out	3393	fresh WER sidecars validated: 488
+11104616_11	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_11.err	627	-------------------------------------------------------------------------------
+11104616_11	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_11.out	3393	fresh WER sidecars validated: 488
+11104616_12	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_12.err	627	-------------------------------------------------------------------------------
+11104616_12	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_12.out	3525	fresh WER sidecars validated: 488
+11104616_13	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_13.err	627	-------------------------------------------------------------------------------
+11104616_13	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_13.out	3525	fresh WER sidecars validated: 488
+11104616_14	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_14.err	627	-------------------------------------------------------------------------------
+11104616_14	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_14.out	3393	fresh WER sidecars validated: 488
+11104616_15	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_15.err	627	-------------------------------------------------------------------------------
+11104616_15	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_15.out	3613	fresh WER sidecars validated: 488
+11104616_16	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_16.err	627	-------------------------------------------------------------------------------
+11104616_16	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_16.out	3569	fresh WER sidecars validated: 488
+11104616_17	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_17.err	627	-------------------------------------------------------------------------------
+11104616_17	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_17.out	3569	fresh WER sidecars validated: 488
+11104616_18	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_18.err	627	-------------------------------------------------------------------------------
+11104616_18	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_18.out	3569	fresh WER sidecars validated: 488
+11104616_19	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_19.err	627	-------------------------------------------------------------------------------
+11104616_19	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_19.out	3481	fresh WER sidecars validated: 488
+11104616_2	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_2.err	627	-------------------------------------------------------------------------------
+11104616_2	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_2.out	3393	fresh WER sidecars validated: 488
+11104616_20	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_20.err	627	-------------------------------------------------------------------------------
+11104616_20	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_20.out	3481	fresh WER sidecars validated: 488
+11104616_21	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_21.err	627	-------------------------------------------------------------------------------
+11104616_21	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_21.out	3481	fresh WER sidecars validated: 488
+11104616_22	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_22.err	627	-------------------------------------------------------------------------------
+11104616_22	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_22.out	3481	fresh WER sidecars validated: 488
+11104616_23	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_23.err	627	-------------------------------------------------------------------------------
+11104616_23	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_23.out	3481	fresh WER sidecars validated: 488
+11104616_24	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_24.err	627	-------------------------------------------------------------------------------
+11104616_24	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_24.out	3569	fresh WER sidecars validated: 488
+11104616_25	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_25.err	627	-------------------------------------------------------------------------------
+11104616_25	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_25.out	3569	fresh WER sidecars validated: 488
+11104616_26	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_26.err	627	-------------------------------------------------------------------------------
+11104616_26	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_26.out	3569	fresh WER sidecars validated: 488
+11104616_27	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_27.err	627	-------------------------------------------------------------------------------
+11104616_27	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_27.out	3569	fresh WER sidecars validated: 488
+11104616_28	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_28.err	627	-------------------------------------------------------------------------------
+11104616_28	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_28.out	3569	fresh WER sidecars validated: 488
+11104616_29	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_29.err	627	-------------------------------------------------------------------------------
+11104616_29	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_29.out	3569	fresh WER sidecars validated: 488
+11104616_3	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_3.err	627	-------------------------------------------------------------------------------
+11104616_3	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_3.out	3415	fresh WER sidecars validated: 488
+11104616_30	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_30.err	627	-------------------------------------------------------------------------------
+11104616_30	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_30.out	3569	fresh WER sidecars validated: 488
+11104616_31	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_31.err	627	-------------------------------------------------------------------------------
+11104616_31	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_31.out	3569	fresh WER sidecars validated: 488
+11104616_32	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_32.err	627	-------------------------------------------------------------------------------
+11104616_32	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_32.out	3569	fresh WER sidecars validated: 488
+11104616_33	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_33.err	627	-------------------------------------------------------------------------------
+11104616_33	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_33.out	3569	fresh WER sidecars validated: 488
+11104616_4	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_4.err	627	-------------------------------------------------------------------------------
+11104616_4	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_4.out	3415	fresh WER sidecars validated: 488
+11104616_5	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_5.err	627	-------------------------------------------------------------------------------
+11104616_5	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/wer-11104616_5.out	3415	fresh WER sidecars validated: 488
+11104618_0	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_0.err	4049	Predicting: 100%|██████████| 31/31 [05:13<00:00, 10.10s/it]
+11104618_0	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_0.out	365	fresh UTMOSv2 sidecars validated: 488
+11104618_1	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_1.err	4049	Predicting: 100%|██████████| 31/31 [05:03<00:00,  9.79s/it]
+11104618_1	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_1.out	365	fresh UTMOSv2 sidecars validated: 488
+11104618_11	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_11.err	4049	Predicting: 100%|██████████| 31/31 [04:49<00:00,  9.34s/it]
+11104618_11	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_11.out	365	fresh UTMOSv2 sidecars validated: 488
+11104618_12	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_12.err	4049	Predicting: 100%|██████████| 31/31 [04:46<00:00,  9.24s/it]
+11104618_12	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_12.out	371	fresh UTMOSv2 sidecars validated: 488
+11104618_13	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_13.err	4049	Predicting: 100%|██████████| 31/31 [04:39<00:00,  9.03s/it]
+11104618_13	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_13.out	371	fresh UTMOSv2 sidecars validated: 488
+11104618_14	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_14.err	4049	Predicting: 100%|██████████| 31/31 [04:24<00:00,  8.54s/it]
+11104618_14	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_14.out	365	fresh UTMOSv2 sidecars validated: 488
+11104618_15	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_15.err	4049	Predicting: 100%|██████████| 31/31 [04:52<00:00,  9.42s/it]
+11104618_15	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_15.out	375	fresh UTMOSv2 sidecars validated: 488
+11104618_16	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_16.err	4049	Predicting: 100%|██████████| 31/31 [04:37<00:00,  8.96s/it]
+11104618_16	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_16.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_17	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_17.err	4049	Predicting: 100%|██████████| 31/31 [04:41<00:00,  9.07s/it]
+11104618_17	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_17.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_18	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_18.err	4049	Predicting: 100%|██████████| 31/31 [05:47<00:00, 11.20s/it]
+11104618_18	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_18.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_19	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_19.err	4049	Predicting: 100%|██████████| 31/31 [06:27<00:00, 12.51s/it]
+11104618_19	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_19.out	369	fresh UTMOSv2 sidecars validated: 488
+11104618_2	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_2.err	4049	Predicting: 100%|██████████| 31/31 [04:36<00:00,  8.90s/it]
+11104618_2	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_2.out	365	fresh UTMOSv2 sidecars validated: 488
+11104618_20	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_20.err	4049	Predicting: 100%|██████████| 31/31 [06:19<00:00, 12.25s/it]
+11104618_20	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_20.out	369	fresh UTMOSv2 sidecars validated: 488
+11104618_21	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_21.err	4049	Predicting: 100%|██████████| 31/31 [04:48<00:00,  9.30s/it]
+11104618_21	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_21.out	369	fresh UTMOSv2 sidecars validated: 488
+11104618_22	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_22.err	4049	Predicting: 100%|██████████| 31/31 [04:42<00:00,  9.11s/it]
+11104618_22	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_22.out	369	fresh UTMOSv2 sidecars validated: 488
+11104618_23	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_23.err	4049	Predicting: 100%|██████████| 31/31 [04:39<00:00,  9.03s/it]
+11104618_23	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_23.out	369	fresh UTMOSv2 sidecars validated: 488
+11104618_24	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_24.err	4049	Predicting: 100%|██████████| 31/31 [04:27<00:00,  8.64s/it]
+11104618_24	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_24.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_25	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_25.err	4049	Predicting: 100%|██████████| 31/31 [04:43<00:00,  9.15s/it]
+11104618_25	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_25.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_26	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_26.err	4049	Predicting: 100%|██████████| 31/31 [04:43<00:00,  9.15s/it]
+11104618_26	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_26.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_27	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_27.err	4049	Predicting: 100%|██████████| 31/31 [04:56<00:00,  9.58s/it]
+11104618_27	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_27.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_28	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_28.err	4049	Predicting: 100%|██████████| 31/31 [05:23<00:00, 10.42s/it]
+11104618_28	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_28.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_29	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_29.err	4049	Predicting: 100%|██████████| 31/31 [07:27<00:00, 14.44s/it]
+11104618_29	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_29.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_3	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_3.err	4049	Predicting: 100%|██████████| 31/31 [04:42<00:00,  9.10s/it]
+11104618_3	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_3.out	366	fresh UTMOSv2 sidecars validated: 488
+11104618_30	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_30.err	4049	Predicting: 100%|██████████| 31/31 [04:37<00:00,  8.97s/it]
+11104618_30	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_30.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_31	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_31.err	4049	Predicting: 100%|██████████| 31/31 [04:39<00:00,  9.02s/it]
+11104618_31	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_31.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_32	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_32.err	4049	Predicting: 100%|██████████| 31/31 [04:33<00:00,  8.83s/it]
+11104618_32	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_32.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_33	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_33.err	4049	Predicting: 100%|██████████| 31/31 [04:47<00:00,  9.28s/it]
+11104618_33	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_33.out	373	fresh UTMOSv2 sidecars validated: 488
+11104618_4	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_4.err	4049	Predicting: 100%|██████████| 31/31 [04:42<00:00,  9.13s/it]
+11104618_4	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_4.out	366	fresh UTMOSv2 sidecars validated: 488
+11104618_5	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_5.err	4049	Predicting: 100%|██████████| 31/31 [04:46<00:00,  9.23s/it]
+11104618_5	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/utmos-11104618_5.out	366	fresh UTMOSv2 sidecars validated: 488
+11105086	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/scope-repair-11105086.err	0	
+11105086	/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/scope-repair-11105086.out	148	rows=29 missing_or_invalid_groups=0

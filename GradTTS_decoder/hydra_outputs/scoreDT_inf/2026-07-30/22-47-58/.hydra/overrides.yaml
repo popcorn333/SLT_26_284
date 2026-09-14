@@ -1,0 +1,3 @@
+- +data=data_swp
+- model.masking.a=1.0
+- eval.checkpoint_dir=/mnt/parscratch/users/acp23xt/private/DTDM_Unet/.symphony/results/scoredt_epoch595_checkpoints/1.0

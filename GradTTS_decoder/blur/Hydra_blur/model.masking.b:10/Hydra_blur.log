@@ -1,0 +1,1205 @@
+[2026-07-11 13:31:52,352][root][INFO] - Initializing logger...
+[2026-07-11 13:31:52,356][root][INFO] - Initializing data loaders...
+[2026-07-11 13:31:53,309][root][INFO] - Initializing model...
+[2026-07-11 13:31:53,864][root][INFO] - Number of encoder parameters = 7.20m
+[2026-07-11 13:31:53,875][root][INFO] - Number of decoder parameters = 7.49m
+[2026-07-11 13:31:54,532][root][INFO] - Initializing optimizer...
+[2026-07-11 13:31:55,290][root][INFO] - Start training...
+[2026-07-11 13:34:01,478][root][INFO] - Epoch 1: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 7.817
+
+[2026-07-11 13:35:46,728][root][INFO] - Epoch 2: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 2.770
+
+[2026-07-11 13:37:31,841][root][INFO] - Epoch 3: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.625
+
+[2026-07-11 13:39:17,304][root][INFO] - Epoch 4: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.244
+
+[2026-07-11 13:41:03,254][root][INFO] - Epoch 5: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.208
+
+[2026-07-11 13:42:48,050][root][INFO] - Epoch 6: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.195
+
+[2026-07-11 13:44:35,208][root][INFO] - Epoch 7: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.188
+
+[2026-07-11 13:46:20,794][root][INFO] - Epoch 8: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.183
+
+[2026-07-11 13:48:06,163][root][INFO] - Epoch 9: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.176
+
+[2026-07-11 13:49:52,023][root][INFO] - Epoch 10: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.176
+
+[2026-07-11 13:51:37,695][root][INFO] - Epoch 11: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.172
+
+[2026-07-11 13:53:23,783][root][INFO] - Epoch 12: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.170
+
+[2026-07-11 13:55:09,107][root][INFO] - Epoch 13: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.167
+
+[2026-07-11 13:56:53,834][root][INFO] - Epoch 14: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.169
+
+[2026-07-11 13:58:37,661][root][INFO] - Epoch 15: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.163
+
+[2026-07-11 14:00:22,255][root][INFO] - Epoch 16: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.161
+
+[2026-07-11 14:02:08,849][root][INFO] - Epoch 17: duration loss = 0.289 | prior loss = 1.205 | diffusion loss = 0.157
+
+[2026-07-11 14:03:54,463][root][INFO] - Epoch 18: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.156
+
+[2026-07-11 14:05:39,174][root][INFO] - Epoch 19: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.159
+
+[2026-07-11 14:07:23,869][root][INFO] - Epoch 20: duration loss = 0.290 | prior loss = 1.207 | diffusion loss = 0.154
+
+[2026-07-11 14:09:08,889][root][INFO] - Epoch 21: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.153
+
+[2026-07-11 14:10:54,313][root][INFO] - Epoch 22: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.154
+
+[2026-07-11 14:12:39,579][root][INFO] - Epoch 23: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.151
+
+[2026-07-11 14:14:24,273][root][INFO] - Epoch 24: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.150
+
+[2026-07-11 14:16:09,687][root][INFO] - Epoch 25: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.152
+
+[2026-07-11 14:17:54,760][root][INFO] - Epoch 26: duration loss = 0.289 | prior loss = 1.205 | diffusion loss = 0.146
+
+[2026-07-11 14:19:40,540][root][INFO] - Epoch 27: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.147
+
+[2026-07-11 14:21:26,994][root][INFO] - Epoch 28: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.149
+
+[2026-07-11 14:23:13,798][root][INFO] - Epoch 29: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.146
+
+[2026-07-11 14:25:00,358][root][INFO] - Epoch 30: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.145
+
+[2026-07-11 14:26:46,864][root][INFO] - Epoch 31: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.144
+
+[2026-07-11 14:28:34,104][root][INFO] - Epoch 32: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.143
+
+[2026-07-11 14:30:20,765][root][INFO] - Epoch 33: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.145
+
+[2026-07-11 14:32:08,141][root][INFO] - Epoch 34: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.143
+
+[2026-07-11 14:33:54,402][root][INFO] - Epoch 35: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.145
+
+[2026-07-11 14:35:40,550][root][INFO] - Epoch 36: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.140
+
+[2026-07-11 14:37:27,216][root][INFO] - Epoch 37: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.141
+
+[2026-07-11 14:39:14,530][root][INFO] - Epoch 38: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.141
+
+[2026-07-11 14:40:59,803][root][INFO] - Epoch 39: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.139
+
+[2026-07-11 14:42:46,366][root][INFO] - Epoch 40: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.137
+
+[2026-07-11 14:44:31,929][root][INFO] - Epoch 41: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.137
+
+[2026-07-11 14:46:18,456][root][INFO] - Epoch 42: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.141
+
+[2026-07-11 14:48:05,737][root][INFO] - Epoch 43: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.136
+
+[2026-07-11 14:49:50,903][root][INFO] - Epoch 44: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.135
+
+[2026-07-11 14:51:33,314][root][INFO] - Epoch 45: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.137
+
+[2026-07-11 14:53:14,867][root][INFO] - Epoch 46: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.135
+
+[2026-07-11 14:54:54,402][root][INFO] - Epoch 47: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.137
+
+[2026-07-11 14:56:36,653][root][INFO] - Epoch 48: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.132
+
+[2026-07-11 14:58:21,616][root][INFO] - Epoch 49: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.134
+
+[2026-07-11 15:00:08,031][root][INFO] - Epoch 50: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.133
+
+[2026-07-11 15:01:54,518][root][INFO] - Epoch 51: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.133
+
+[2026-07-11 15:03:40,362][root][INFO] - Epoch 52: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.132
+
+[2026-07-11 15:05:27,385][root][INFO] - Epoch 53: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.131
+
+[2026-07-11 15:07:13,769][root][INFO] - Epoch 54: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.133
+
+[2026-07-11 15:08:59,593][root][INFO] - Epoch 55: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.131
+
+[2026-07-11 15:10:46,100][root][INFO] - Epoch 56: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.133
+
+[2026-07-11 15:12:31,319][root][INFO] - Epoch 57: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.131
+
+[2026-07-11 15:14:17,169][root][INFO] - Epoch 58: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.132
+
+[2026-07-11 15:16:03,165][root][INFO] - Epoch 59: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.128
+
+[2026-07-11 15:17:50,391][root][INFO] - Epoch 60: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.131
+
+[2026-07-11 15:19:39,104][root][INFO] - Epoch 61: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.128
+
+[2026-07-11 15:21:26,557][root][INFO] - Epoch 62: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.128
+
+[2026-07-11 15:23:14,180][root][INFO] - Epoch 63: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.130
+
+[2026-07-11 15:25:00,591][root][INFO] - Epoch 64: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.129
+
+[2026-07-11 15:26:47,279][root][INFO] - Epoch 65: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.128
+
+[2026-07-11 15:28:33,779][root][INFO] - Epoch 66: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.130
+
+[2026-07-11 15:30:20,075][root][INFO] - Epoch 67: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.128
+
+[2026-07-11 15:32:04,212][root][INFO] - Epoch 68: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.127
+
+[2026-07-11 15:33:51,097][root][INFO] - Epoch 69: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.127
+
+[2026-07-11 15:35:38,374][root][INFO] - Epoch 70: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.128
+
+[2026-07-11 15:37:25,178][root][INFO] - Epoch 71: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.126
+
+[2026-07-11 15:39:12,067][root][INFO] - Epoch 72: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.125
+
+[2026-07-11 15:40:59,349][root][INFO] - Epoch 73: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.127
+
+[2026-07-11 15:42:46,414][root][INFO] - Epoch 74: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.127
+
+[2026-07-11 15:44:33,603][root][INFO] - Epoch 75: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.127
+
+[2026-07-11 15:46:20,926][root][INFO] - Epoch 76: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.125
+
+[2026-07-11 15:48:09,340][root][INFO] - Epoch 77: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.124
+
+[2026-07-11 15:49:56,691][root][INFO] - Epoch 78: duration loss = 0.290 | prior loss = 1.207 | diffusion loss = 0.123
+
+[2026-07-11 15:51:44,307][root][INFO] - Epoch 79: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.124
+
+[2026-07-11 15:53:32,039][root][INFO] - Epoch 80: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.125
+
+[2026-07-11 15:55:19,774][root][INFO] - Epoch 81: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.126
+
+[2026-07-11 15:57:05,980][root][INFO] - Epoch 82: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.122
+
+[2026-07-11 15:58:54,448][root][INFO] - Epoch 83: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.124
+
+[2026-07-11 16:00:42,427][root][INFO] - Epoch 84: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.123
+
+[2026-07-11 16:02:30,316][root][INFO] - Epoch 85: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.123
+
+[2026-07-11 16:04:19,680][root][INFO] - Epoch 86: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.123
+
+[2026-07-11 16:06:07,800][root][INFO] - Epoch 87: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.124
+
+[2026-07-11 16:07:55,323][root][INFO] - Epoch 88: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.121
+
+[2026-07-11 16:09:44,154][root][INFO] - Epoch 89: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.121
+
+[2026-07-11 16:11:33,224][root][INFO] - Epoch 90: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.123
+
+[2026-07-11 16:13:21,417][root][INFO] - Epoch 91: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.121
+
+[2026-07-11 16:15:09,363][root][INFO] - Epoch 92: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.123
+
+[2026-07-11 16:16:57,470][root][INFO] - Epoch 93: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.123
+
+[2026-07-11 16:18:46,188][root][INFO] - Epoch 94: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.124
+
+[2026-07-11 16:20:32,277][root][INFO] - Epoch 95: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.122
+
+[2026-07-11 16:22:21,290][root][INFO] - Epoch 96: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.121
+
+[2026-07-11 16:24:08,626][root][INFO] - Epoch 97: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.121
+
+[2026-07-11 16:25:57,435][root][INFO] - Epoch 98: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.119
+
+[2026-07-11 16:27:45,172][root][INFO] - Epoch 99: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.122
+
+[2026-07-11 16:29:34,681][root][INFO] - Epoch 100: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.120
+
+[2026-07-11 16:31:22,863][root][INFO] - Epoch 101: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.119
+
+[2026-07-11 16:33:10,846][root][INFO] - Epoch 102: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.120
+
+[2026-07-11 16:34:58,975][root][INFO] - Epoch 103: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.122
+
+[2026-07-11 16:36:47,409][root][INFO] - Epoch 104: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.120
+
+[2026-07-11 16:38:36,467][root][INFO] - Epoch 105: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.119
+
+[2026-07-11 16:40:25,559][root][INFO] - Epoch 106: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.118
+
+[2026-07-11 16:42:13,866][root][INFO] - Epoch 107: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.120
+
+[2026-07-11 16:44:02,915][root][INFO] - Epoch 108: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.120
+
+[2026-07-11 16:45:52,244][root][INFO] - Epoch 109: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.121
+
+[2026-07-11 16:47:40,023][root][INFO] - Epoch 110: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.119
+
+[2026-07-11 16:49:29,192][root][INFO] - Epoch 111: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.116
+
+[2026-07-11 16:51:15,423][root][INFO] - Epoch 112: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.118
+
+[2026-07-11 16:53:02,732][root][INFO] - Epoch 113: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.117
+
+[2026-07-11 16:54:49,183][root][INFO] - Epoch 114: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.118
+
+[2026-07-11 16:56:37,390][root][INFO] - Epoch 115: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.119
+
+[2026-07-11 16:58:24,278][root][INFO] - Epoch 116: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.119
+
+[2026-07-11 17:00:13,253][root][INFO] - Epoch 117: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.116
+
+[2026-07-11 17:02:01,181][root][INFO] - Epoch 118: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.118
+
+[2026-07-11 17:03:49,471][root][INFO] - Epoch 119: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.117
+
+[2026-07-11 17:05:39,885][root][INFO] - Epoch 120: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.118
+
+[2026-07-11 17:07:28,650][root][INFO] - Epoch 121: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.118
+
+[2026-07-11 17:09:17,208][root][INFO] - Epoch 122: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.117
+
+[2026-07-11 17:11:03,973][root][INFO] - Epoch 123: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.116
+
+[2026-07-11 17:12:53,472][root][INFO] - Epoch 124: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.117
+
+[2026-07-11 17:14:43,466][root][INFO] - Epoch 125: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.116
+
+[2026-07-11 17:16:33,295][root][INFO] - Epoch 126: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.116
+
+[2026-07-11 17:18:24,235][root][INFO] - Epoch 127: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.115
+
+[2026-07-11 17:20:15,248][root][INFO] - Epoch 128: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.117
+
+[2026-07-11 17:22:05,032][root][INFO] - Epoch 129: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.118
+
+[2026-07-11 17:23:54,857][root][INFO] - Epoch 130: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.117
+
+[2026-07-11 17:25:44,459][root][INFO] - Epoch 131: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.116
+
+[2026-07-11 17:27:31,969][root][INFO] - Epoch 132: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.115
+
+[2026-07-11 17:29:21,325][root][INFO] - Epoch 133: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.117
+
+[2026-07-11 17:31:09,634][root][INFO] - Epoch 134: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.114
+
+[2026-07-11 17:32:58,737][root][INFO] - Epoch 135: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.115
+
+[2026-07-11 17:34:44,292][root][INFO] - Epoch 136: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.118
+
+[2026-07-11 17:36:29,521][root][INFO] - Epoch 137: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.116
+
+[2026-07-11 17:38:14,099][root][INFO] - Epoch 138: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.115
+
+[2026-07-11 17:39:59,806][root][INFO] - Epoch 139: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.116
+
+[2026-07-11 17:41:47,181][root][INFO] - Epoch 140: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.114
+
+[2026-07-11 17:43:35,414][root][INFO] - Epoch 141: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.115
+
+[2026-07-11 17:45:24,874][root][INFO] - Epoch 142: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.113
+
+[2026-07-11 17:47:14,189][root][INFO] - Epoch 143: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.113
+
+[2026-07-11 17:49:01,533][root][INFO] - Epoch 144: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.115
+
+[2026-07-11 17:50:49,471][root][INFO] - Epoch 145: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.113
+
+[2026-07-11 17:52:39,606][root][INFO] - Epoch 146: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.115
+
+[2026-07-11 17:54:28,464][root][INFO] - Epoch 147: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.114
+
+[2026-07-11 17:56:17,952][root][INFO] - Epoch 148: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.116
+
+[2026-07-11 17:58:07,603][root][INFO] - Epoch 149: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.114
+
+[2026-07-11 17:59:56,495][root][INFO] - Epoch 150: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.115
+
+[2026-07-11 18:01:45,552][root][INFO] - Epoch 151: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.114
+
+[2026-07-11 18:03:33,627][root][INFO] - Epoch 152: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.114
+
+[2026-07-11 18:05:22,883][root][INFO] - Epoch 153: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.112
+
+[2026-07-11 18:07:11,635][root][INFO] - Epoch 154: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.113
+
+[2026-07-11 18:09:00,893][root][INFO] - Epoch 155: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.115
+
+[2026-07-11 18:10:49,818][root][INFO] - Epoch 156: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.114
+
+[2026-07-11 18:12:39,283][root][INFO] - Epoch 157: duration loss = 0.289 | prior loss = 1.205 | diffusion loss = 0.112
+
+[2026-07-11 18:14:28,568][root][INFO] - Epoch 158: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.113
+
+[2026-07-11 18:16:16,068][root][INFO] - Epoch 159: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.112
+
+[2026-07-11 18:17:57,648][root][INFO] - Epoch 160: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.114
+
+[2026-07-11 18:19:39,364][root][INFO] - Epoch 161: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.115
+
+[2026-07-11 18:21:20,635][root][INFO] - Epoch 162: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.114
+
+[2026-07-11 18:23:03,303][root][INFO] - Epoch 163: duration loss = 0.289 | prior loss = 1.205 | diffusion loss = 0.113
+
+[2026-07-11 18:24:45,954][root][INFO] - Epoch 164: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.111
+
+[2026-07-11 18:26:33,678][root][INFO] - Epoch 165: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.114
+
+[2026-07-11 18:28:21,499][root][INFO] - Epoch 166: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.111
+
+[2026-07-11 18:30:08,578][root][INFO] - Epoch 167: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.111
+
+[2026-07-11 18:31:50,424][root][INFO] - Epoch 168: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.112
+
+[2026-07-11 18:33:24,721][root][INFO] - Epoch 169: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.112
+
+[2026-07-11 18:34:59,291][root][INFO] - Epoch 170: duration loss = 0.289 | prior loss = 1.207 | diffusion loss = 0.112
+
+[2026-07-11 18:36:33,267][root][INFO] - Epoch 171: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.111
+
+[2026-07-11 18:38:07,545][root][INFO] - Epoch 172: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.112
+
+[2026-07-11 18:39:42,247][root][INFO] - Epoch 173: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.112
+
+[2026-07-11 18:41:16,566][root][INFO] - Epoch 174: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.112
+
+[2026-07-11 18:42:50,977][root][INFO] - Epoch 175: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.112
+
+[2026-07-11 18:44:24,987][root][INFO] - Epoch 176: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.112
+
+[2026-07-11 18:45:58,733][root][INFO] - Epoch 177: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.113
+
+[2026-07-11 18:47:32,785][root][INFO] - Epoch 178: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.111
+
+[2026-07-11 18:49:06,518][root][INFO] - Epoch 179: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.111
+
+[2026-07-11 18:50:40,448][root][INFO] - Epoch 180: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.110
+
+[2026-07-11 18:52:14,502][root][INFO] - Epoch 181: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 18:53:48,775][root][INFO] - Epoch 182: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 18:55:23,544][root][INFO] - Epoch 183: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 18:56:58,485][root][INFO] - Epoch 184: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 18:58:32,586][root][INFO] - Epoch 185: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.111
+
+[2026-07-11 19:00:07,362][root][INFO] - Epoch 186: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 19:01:42,891][root][INFO] - Epoch 187: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.110
+
+[2026-07-11 19:03:18,791][root][INFO] - Epoch 188: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.111
+
+[2026-07-11 19:04:54,443][root][INFO] - Epoch 189: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.110
+
+[2026-07-11 19:06:30,254][root][INFO] - Epoch 190: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.110
+
+[2026-07-11 19:08:05,747][root][INFO] - Epoch 191: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 19:09:41,181][root][INFO] - Epoch 192: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.111
+
+[2026-07-11 19:11:16,793][root][INFO] - Epoch 193: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.110
+
+[2026-07-11 19:12:52,416][root][INFO] - Epoch 194: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 19:14:28,144][root][INFO] - Epoch 195: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 19:16:03,255][root][INFO] - Epoch 196: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 19:17:39,160][root][INFO] - Epoch 197: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.111
+
+[2026-07-11 19:19:14,749][root][INFO] - Epoch 198: duration loss = 0.289 | prior loss = 1.207 | diffusion loss = 0.107
+
+[2026-07-11 19:20:50,824][root][INFO] - Epoch 199: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 19:22:26,405][root][INFO] - Epoch 200: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.111
+
+[2026-07-11 19:24:02,007][root][INFO] - Epoch 201: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 19:25:37,646][root][INFO] - Epoch 202: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 19:27:13,133][root][INFO] - Epoch 203: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.110
+
+[2026-07-11 19:28:49,464][root][INFO] - Epoch 204: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 19:30:25,070][root][INFO] - Epoch 205: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.110
+
+[2026-07-11 19:32:01,139][root][INFO] - Epoch 206: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 19:33:37,594][root][INFO] - Epoch 207: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.110
+
+[2026-07-11 19:35:13,904][root][INFO] - Epoch 208: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.110
+
+[2026-07-11 19:36:50,220][root][INFO] - Epoch 209: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.110
+
+[2026-07-11 19:38:26,319][root][INFO] - Epoch 210: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 19:40:02,594][root][INFO] - Epoch 211: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 19:41:37,988][root][INFO] - Epoch 212: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 19:43:13,819][root][INFO] - Epoch 213: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 19:44:49,881][root][INFO] - Epoch 214: duration loss = 0.290 | prior loss = 1.207 | diffusion loss = 0.109
+
+[2026-07-11 19:46:25,873][root][INFO] - Epoch 215: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 19:48:01,689][root][INFO] - Epoch 216: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 19:49:37,561][root][INFO] - Epoch 217: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 19:51:12,833][root][INFO] - Epoch 218: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 19:52:48,087][root][INFO] - Epoch 219: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 19:54:24,191][root][INFO] - Epoch 220: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 19:56:00,107][root][INFO] - Epoch 221: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 19:57:35,847][root][INFO] - Epoch 222: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 19:59:12,248][root][INFO] - Epoch 223: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 20:00:48,147][root][INFO] - Epoch 224: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 20:02:23,823][root][INFO] - Epoch 225: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 20:04:11,627][root][INFO] - Epoch 226: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 20:05:47,106][root][INFO] - Epoch 227: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 20:07:22,971][root][INFO] - Epoch 228: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 20:08:58,688][root][INFO] - Epoch 229: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 20:10:33,617][root][INFO] - Epoch 230: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 20:12:09,375][root][INFO] - Epoch 231: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 20:13:45,127][root][INFO] - Epoch 232: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 20:15:20,528][root][INFO] - Epoch 233: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 20:16:56,292][root][INFO] - Epoch 234: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 20:18:32,054][root][INFO] - Epoch 235: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 20:20:07,471][root][INFO] - Epoch 236: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 20:21:42,310][root][INFO] - Epoch 237: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 20:23:17,531][root][INFO] - Epoch 238: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 20:24:52,704][root][INFO] - Epoch 239: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 20:26:27,265][root][INFO] - Epoch 240: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.109
+
+[2026-07-11 20:28:02,111][root][INFO] - Epoch 241: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 20:29:36,988][root][INFO] - Epoch 242: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 20:31:11,744][root][INFO] - Epoch 243: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 20:32:45,598][root][INFO] - Epoch 244: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 20:34:20,002][root][INFO] - Epoch 245: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 20:35:54,132][root][INFO] - Epoch 246: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 20:37:28,233][root][INFO] - Epoch 247: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 20:39:03,059][root][INFO] - Epoch 248: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 20:40:38,091][root][INFO] - Epoch 249: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 20:42:12,539][root][INFO] - Epoch 250: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 20:43:47,732][root][INFO] - Epoch 251: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 20:45:22,627][root][INFO] - Epoch 252: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 20:46:57,824][root][INFO] - Epoch 253: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 20:48:32,650][root][INFO] - Epoch 254: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 20:50:07,355][root][INFO] - Epoch 255: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 20:51:42,203][root][INFO] - Epoch 256: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 20:53:16,636][root][INFO] - Epoch 257: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 20:54:51,442][root][INFO] - Epoch 258: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 20:56:26,217][root][INFO] - Epoch 259: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 20:58:00,837][root][INFO] - Epoch 260: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 20:59:35,579][root][INFO] - Epoch 261: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 21:01:10,941][root][INFO] - Epoch 262: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 21:02:45,749][root][INFO] - Epoch 263: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 21:04:20,450][root][INFO] - Epoch 264: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 21:05:55,413][root][INFO] - Epoch 265: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 21:07:30,751][root][INFO] - Epoch 266: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 21:09:05,730][root][INFO] - Epoch 267: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 21:10:40,702][root][INFO] - Epoch 268: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.108
+
+[2026-07-11 21:12:15,319][root][INFO] - Epoch 269: duration loss = 0.289 | prior loss = 1.207 | diffusion loss = 0.104
+
+[2026-07-11 21:13:49,731][root][INFO] - Epoch 270: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 21:15:24,783][root][INFO] - Epoch 271: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.107
+
+[2026-07-11 21:16:59,958][root][INFO] - Epoch 272: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 21:18:34,546][root][INFO] - Epoch 273: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 21:20:08,938][root][INFO] - Epoch 274: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 21:21:43,646][root][INFO] - Epoch 275: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 21:23:18,086][root][INFO] - Epoch 276: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 21:24:53,298][root][INFO] - Epoch 277: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 21:26:28,070][root][INFO] - Epoch 278: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 21:28:03,022][root][INFO] - Epoch 279: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 21:29:38,100][root][INFO] - Epoch 280: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 21:31:12,683][root][INFO] - Epoch 281: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 21:32:47,880][root][INFO] - Epoch 282: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 21:34:23,068][root][INFO] - Epoch 283: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 21:35:58,454][root][INFO] - Epoch 284: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 21:37:33,928][root][INFO] - Epoch 285: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 21:39:09,734][root][INFO] - Epoch 286: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 21:40:45,020][root][INFO] - Epoch 287: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 21:42:20,286][root][INFO] - Epoch 288: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 21:43:55,524][root][INFO] - Epoch 289: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 21:45:30,485][root][INFO] - Epoch 290: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 21:47:05,572][root][INFO] - Epoch 291: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 21:48:41,331][root][INFO] - Epoch 292: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 21:50:16,569][root][INFO] - Epoch 293: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 21:51:52,064][root][INFO] - Epoch 294: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 21:53:27,388][root][INFO] - Epoch 295: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 21:55:03,102][root][INFO] - Epoch 296: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 21:56:38,879][root][INFO] - Epoch 297: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 21:58:14,901][root][INFO] - Epoch 298: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 21:59:50,275][root][INFO] - Epoch 299: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 22:01:25,042][root][INFO] - Epoch 300: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 22:03:00,374][root][INFO] - Epoch 301: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 22:04:36,522][root][INFO] - Epoch 302: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.106
+
+[2026-07-11 22:06:12,328][root][INFO] - Epoch 303: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 22:07:48,072][root][INFO] - Epoch 304: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 22:09:23,722][root][INFO] - Epoch 305: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 22:10:59,017][root][INFO] - Epoch 306: duration loss = 0.289 | prior loss = 1.207 | diffusion loss = 0.101
+
+[2026-07-11 22:12:34,864][root][INFO] - Epoch 307: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 22:14:10,534][root][INFO] - Epoch 308: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 22:15:45,878][root][INFO] - Epoch 309: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 22:17:20,826][root][INFO] - Epoch 310: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 22:18:55,953][root][INFO] - Epoch 311: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 22:20:31,216][root][INFO] - Epoch 312: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 22:22:06,884][root][INFO] - Epoch 313: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 22:23:42,378][root][INFO] - Epoch 314: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 22:25:18,011][root][INFO] - Epoch 315: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 22:26:53,209][root][INFO] - Epoch 316: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 22:28:29,017][root][INFO] - Epoch 317: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 22:30:04,564][root][INFO] - Epoch 318: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.105
+
+[2026-07-11 22:31:39,966][root][INFO] - Epoch 319: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 22:33:15,054][root][INFO] - Epoch 320: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 22:34:49,583][root][INFO] - Epoch 321: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 22:36:24,477][root][INFO] - Epoch 322: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 22:37:59,930][root][INFO] - Epoch 323: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 22:39:34,783][root][INFO] - Epoch 324: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 22:41:09,430][root][INFO] - Epoch 325: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 22:42:44,385][root][INFO] - Epoch 326: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 22:44:19,404][root][INFO] - Epoch 327: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 22:45:54,988][root][INFO] - Epoch 328: duration loss = 0.289 | prior loss = 1.207 | diffusion loss = 0.102
+
+[2026-07-11 22:47:30,026][root][INFO] - Epoch 329: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 22:49:05,317][root][INFO] - Epoch 330: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 22:50:40,426][root][INFO] - Epoch 331: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 22:52:15,415][root][INFO] - Epoch 332: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 22:53:50,626][root][INFO] - Epoch 333: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-11 22:55:25,613][root][INFO] - Epoch 334: duration loss = 0.290 | prior loss = 1.205 | diffusion loss = 0.102
+
+[2026-07-11 22:57:00,276][root][INFO] - Epoch 335: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 22:58:35,039][root][INFO] - Epoch 336: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 23:00:09,929][root][INFO] - Epoch 337: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:01:45,468][root][INFO] - Epoch 338: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-11 23:03:21,162][root][INFO] - Epoch 339: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 23:04:56,442][root][INFO] - Epoch 340: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:06:32,042][root][INFO] - Epoch 341: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:08:07,200][root][INFO] - Epoch 342: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 23:09:42,416][root][INFO] - Epoch 343: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:11:18,129][root][INFO] - Epoch 344: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 23:12:52,831][root][INFO] - Epoch 345: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:14:27,845][root][INFO] - Epoch 346: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:16:02,783][root][INFO] - Epoch 347: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:17:38,339][root][INFO] - Epoch 348: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-11 23:19:13,445][root][INFO] - Epoch 349: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 23:20:48,540][root][INFO] - Epoch 350: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:22:23,845][root][INFO] - Epoch 351: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-11 23:23:58,428][root][INFO] - Epoch 352: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-11 23:25:33,890][root][INFO] - Epoch 353: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:27:09,035][root][INFO] - Epoch 354: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-11 23:28:44,377][root][INFO] - Epoch 355: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:30:19,924][root][INFO] - Epoch 356: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 23:31:55,001][root][INFO] - Epoch 357: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 23:33:30,332][root][INFO] - Epoch 358: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-11 23:35:05,577][root][INFO] - Epoch 359: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:36:40,779][root][INFO] - Epoch 360: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:38:15,724][root][INFO] - Epoch 361: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-11 23:39:51,272][root][INFO] - Epoch 362: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 23:41:27,198][root][INFO] - Epoch 363: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-11 23:43:02,156][root][INFO] - Epoch 364: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-11 23:44:37,101][root][INFO] - Epoch 365: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-11 23:46:12,681][root][INFO] - Epoch 366: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-11 23:47:47,999][root][INFO] - Epoch 367: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-11 23:49:23,472][root][INFO] - Epoch 368: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-11 23:50:59,145][root][INFO] - Epoch 369: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.104
+
+[2026-07-11 23:52:34,558][root][INFO] - Epoch 370: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-11 23:54:09,697][root][INFO] - Epoch 371: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-11 23:55:45,241][root][INFO] - Epoch 372: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-11 23:57:20,556][root][INFO] - Epoch 373: duration loss = 0.289 | prior loss = 1.207 | diffusion loss = 0.101
+
+[2026-07-11 23:58:55,663][root][INFO] - Epoch 374: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:00:30,658][root][INFO] - Epoch 375: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:02:06,518][root][INFO] - Epoch 376: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 00:03:41,652][root][INFO] - Epoch 377: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:05:16,724][root][INFO] - Epoch 378: duration loss = 0.290 | prior loss = 1.205 | diffusion loss = 0.101
+
+[2026-07-12 00:06:51,078][root][INFO] - Epoch 379: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-12 00:08:26,227][root][INFO] - Epoch 380: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-12 00:10:01,514][root][INFO] - Epoch 381: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.103
+
+[2026-07-12 00:11:36,248][root][INFO] - Epoch 382: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:13:11,563][root][INFO] - Epoch 383: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:14:46,553][root][INFO] - Epoch 384: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 00:16:21,804][root][INFO] - Epoch 385: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 00:17:57,247][root][INFO] - Epoch 386: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:19:32,364][root][INFO] - Epoch 387: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 00:21:07,470][root][INFO] - Epoch 388: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:22:43,192][root][INFO] - Epoch 389: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 00:24:18,125][root][INFO] - Epoch 390: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:25:53,013][root][INFO] - Epoch 391: duration loss = 0.289 | prior loss = 1.207 | diffusion loss = 0.100
+
+[2026-07-12 00:27:27,929][root][INFO] - Epoch 392: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:29:03,114][root][INFO] - Epoch 393: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-12 00:30:38,567][root][INFO] - Epoch 394: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 00:32:13,989][root][INFO] - Epoch 395: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 00:33:49,190][root][INFO] - Epoch 396: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 00:35:24,544][root][INFO] - Epoch 397: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 00:36:59,775][root][INFO] - Epoch 398: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-12 00:38:35,409][root][INFO] - Epoch 399: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:40:10,778][root][INFO] - Epoch 400: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:41:46,220][root][INFO] - Epoch 401: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:43:21,222][root][INFO] - Epoch 402: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:44:56,095][root][INFO] - Epoch 403: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-12 00:46:30,745][root][INFO] - Epoch 404: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.102
+
+[2026-07-12 00:48:06,552][root][INFO] - Epoch 405: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 00:49:41,514][root][INFO] - Epoch 406: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 00:51:16,469][root][INFO] - Epoch 407: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:52:51,414][root][INFO] - Epoch 408: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 00:54:26,774][root][INFO] - Epoch 409: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 00:56:02,001][root][INFO] - Epoch 410: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 00:57:37,440][root][INFO] - Epoch 411: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 00:59:12,984][root][INFO] - Epoch 412: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:00:47,949][root][INFO] - Epoch 413: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:02:23,250][root][INFO] - Epoch 414: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:03:58,632][root][INFO] - Epoch 415: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:05:33,378][root][INFO] - Epoch 416: duration loss = 0.289 | prior loss = 1.205 | diffusion loss = 0.098
+
+[2026-07-12 01:07:08,748][root][INFO] - Epoch 417: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:08:43,858][root][INFO] - Epoch 418: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:10:19,201][root][INFO] - Epoch 419: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:11:54,138][root][INFO] - Epoch 420: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:13:29,066][root][INFO] - Epoch 421: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 01:15:04,398][root][INFO] - Epoch 422: duration loss = 0.289 | prior loss = 1.207 | diffusion loss = 0.100
+
+[2026-07-12 01:16:39,955][root][INFO] - Epoch 423: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:18:14,793][root][INFO] - Epoch 424: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:19:49,849][root][INFO] - Epoch 425: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:21:24,978][root][INFO] - Epoch 426: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:23:00,148][root][INFO] - Epoch 427: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:24:35,148][root][INFO] - Epoch 428: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:26:10,690][root][INFO] - Epoch 429: duration loss = 0.289 | prior loss = 1.205 | diffusion loss = 0.100
+
+[2026-07-12 01:27:45,439][root][INFO] - Epoch 430: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:29:20,989][root][INFO] - Epoch 431: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:30:56,263][root][INFO] - Epoch 432: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:32:30,918][root][INFO] - Epoch 433: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:34:05,786][root][INFO] - Epoch 434: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 01:35:41,114][root][INFO] - Epoch 435: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:37:16,245][root][INFO] - Epoch 436: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:38:51,529][root][INFO] - Epoch 437: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:40:26,615][root][INFO] - Epoch 438: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:42:01,710][root][INFO] - Epoch 439: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 01:43:37,289][root][INFO] - Epoch 440: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:45:12,978][root][INFO] - Epoch 441: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:46:47,829][root][INFO] - Epoch 442: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:48:22,940][root][INFO] - Epoch 443: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:49:57,838][root][INFO] - Epoch 444: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 01:51:32,859][root][INFO] - Epoch 445: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 01:53:07,896][root][INFO] - Epoch 446: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:54:43,330][root][INFO] - Epoch 447: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:56:18,337][root][INFO] - Epoch 448: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:57:53,325][root][INFO] - Epoch 449: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 01:59:28,544][root][INFO] - Epoch 450: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:01:03,870][root][INFO] - Epoch 451: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:02:39,528][root][INFO] - Epoch 452: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 02:04:15,080][root][INFO] - Epoch 453: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:05:50,263][root][INFO] - Epoch 454: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 02:07:25,428][root][INFO] - Epoch 455: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 02:09:00,616][root][INFO] - Epoch 456: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 02:10:35,483][root][INFO] - Epoch 457: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 02:12:10,546][root][INFO] - Epoch 458: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.097
+
+[2026-07-12 02:13:45,880][root][INFO] - Epoch 459: duration loss = 0.289 | prior loss = 1.207 | diffusion loss = 0.099
+
+[2026-07-12 02:15:20,751][root][INFO] - Epoch 460: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:16:55,690][root][INFO] - Epoch 461: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:18:31,103][root][INFO] - Epoch 462: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:20:06,502][root][INFO] - Epoch 463: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:21:42,079][root][INFO] - Epoch 464: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.097
+
+[2026-07-12 02:23:16,525][root][INFO] - Epoch 465: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 02:24:51,892][root][INFO] - Epoch 466: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.101
+
+[2026-07-12 02:26:27,378][root][INFO] - Epoch 467: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:28:02,864][root][INFO] - Epoch 468: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:29:38,443][root][INFO] - Epoch 469: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:31:13,526][root][INFO] - Epoch 470: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:32:48,841][root][INFO] - Epoch 471: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:34:24,309][root][INFO] - Epoch 472: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 02:35:59,573][root][INFO] - Epoch 473: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 02:37:35,165][root][INFO] - Epoch 474: duration loss = 0.289 | prior loss = 1.207 | diffusion loss = 0.098
+
+[2026-07-12 02:39:10,566][root][INFO] - Epoch 475: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.097
+
+[2026-07-12 02:40:45,399][root][INFO] - Epoch 476: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:42:20,604][root][INFO] - Epoch 477: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 02:43:55,786][root][INFO] - Epoch 478: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.097
+
+[2026-07-12 02:45:31,012][root][INFO] - Epoch 479: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 02:47:06,052][root][INFO] - Epoch 480: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:48:41,094][root][INFO] - Epoch 481: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.097
+
+[2026-07-12 02:50:16,629][root][INFO] - Epoch 482: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 02:51:52,107][root][INFO] - Epoch 483: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 02:53:27,064][root][INFO] - Epoch 484: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.097
+
+[2026-07-12 02:55:02,269][root][INFO] - Epoch 485: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:56:37,212][root][INFO] - Epoch 486: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 02:58:12,719][root][INFO] - Epoch 487: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 02:59:48,478][root][INFO] - Epoch 488: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.097
+
+[2026-07-12 03:01:23,776][root][INFO] - Epoch 489: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.097
+
+[2026-07-12 03:02:59,162][root][INFO] - Epoch 490: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.100
+
+[2026-07-12 03:04:34,088][root][INFO] - Epoch 491: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.097
+
+[2026-07-12 03:06:08,987][root][INFO] - Epoch 492: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.097
+
+[2026-07-12 03:07:44,190][root][INFO] - Epoch 493: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 03:09:19,750][root][INFO] - Epoch 494: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.096
+
+[2026-07-12 03:10:54,707][root][INFO] - Epoch 495: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 03:12:30,129][root][INFO] - Epoch 496: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.099
+
+[2026-07-12 03:14:05,427][root][INFO] - Epoch 497: duration loss = 0.290 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 03:15:40,613][root][INFO] - Epoch 498: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 03:17:15,668][root][INFO] - Epoch 499: duration loss = 0.289 | prior loss = 1.206 | diffusion loss = 0.098
+
+[2026-07-12 03:18:58,480][root][INFO] - Epoch 500: duration loss = 0.286 | prior loss = 1.204 | diffusion loss = 0.099
+
+[2026-07-12 03:20:41,971][root][INFO] - Epoch 501: duration loss = 0.284 | prior loss = 1.202 | diffusion loss = 0.098
+
+[2026-07-12 03:22:25,576][root][INFO] - Epoch 502: duration loss = 0.283 | prior loss = 1.202 | diffusion loss = 0.097
+
+[2026-07-12 03:24:09,385][root][INFO] - Epoch 503: duration loss = 0.283 | prior loss = 1.201 | diffusion loss = 0.097
+
+[2026-07-12 03:25:53,090][root][INFO] - Epoch 504: duration loss = 0.282 | prior loss = 1.201 | diffusion loss = 0.098
+
+[2026-07-12 03:27:36,356][root][INFO] - Epoch 505: duration loss = 0.282 | prior loss = 1.200 | diffusion loss = 0.098
+
+[2026-07-12 03:29:20,442][root][INFO] - Epoch 506: duration loss = 0.282 | prior loss = 1.200 | diffusion loss = 0.098
+
+[2026-07-12 03:31:04,053][root][INFO] - Epoch 507: duration loss = 0.282 | prior loss = 1.200 | diffusion loss = 0.098
+
+[2026-07-12 03:32:47,345][root][INFO] - Epoch 508: duration loss = 0.281 | prior loss = 1.200 | diffusion loss = 0.097
+
+[2026-07-12 03:34:30,747][root][INFO] - Epoch 509: duration loss = 0.281 | prior loss = 1.200 | diffusion loss = 0.099
+
+[2026-07-12 03:36:14,025][root][INFO] - Epoch 510: duration loss = 0.281 | prior loss = 1.199 | diffusion loss = 0.098
+
+[2026-07-12 03:37:57,776][root][INFO] - Epoch 511: duration loss = 0.281 | prior loss = 1.199 | diffusion loss = 0.095
+
+[2026-07-12 03:39:41,630][root][INFO] - Epoch 512: duration loss = 0.281 | prior loss = 1.199 | diffusion loss = 0.096
+
+[2026-07-12 03:41:25,253][root][INFO] - Epoch 513: duration loss = 0.280 | prior loss = 1.199 | diffusion loss = 0.096
+
+[2026-07-12 03:43:09,205][root][INFO] - Epoch 514: duration loss = 0.280 | prior loss = 1.199 | diffusion loss = 0.097
+
+[2026-07-12 03:44:52,851][root][INFO] - Epoch 515: duration loss = 0.280 | prior loss = 1.198 | diffusion loss = 0.094
+
+[2026-07-12 03:46:35,966][root][INFO] - Epoch 516: duration loss = 0.280 | prior loss = 1.198 | diffusion loss = 0.096
+
+[2026-07-12 03:48:19,109][root][INFO] - Epoch 517: duration loss = 0.280 | prior loss = 1.199 | diffusion loss = 0.095
+
+[2026-07-12 03:50:02,117][root][INFO] - Epoch 518: duration loss = 0.280 | prior loss = 1.198 | diffusion loss = 0.097
+
+[2026-07-12 03:51:44,631][root][INFO] - Epoch 519: duration loss = 0.280 | prior loss = 1.198 | diffusion loss = 0.096
+
+[2026-07-12 03:53:27,816][root][INFO] - Epoch 520: duration loss = 0.280 | prior loss = 1.198 | diffusion loss = 0.096
+
+[2026-07-12 03:55:11,710][root][INFO] - Epoch 521: duration loss = 0.280 | prior loss = 1.198 | diffusion loss = 0.096
+
+[2026-07-12 03:56:54,743][root][INFO] - Epoch 522: duration loss = 0.279 | prior loss = 1.198 | diffusion loss = 0.095
+
+[2026-07-12 03:58:38,493][root][INFO] - Epoch 523: duration loss = 0.279 | prior loss = 1.198 | diffusion loss = 0.096
+
+[2026-07-12 04:00:21,564][root][INFO] - Epoch 524: duration loss = 0.279 | prior loss = 1.197 | diffusion loss = 0.097
+
+[2026-07-12 04:02:05,350][root][INFO] - Epoch 525: duration loss = 0.279 | prior loss = 1.198 | diffusion loss = 0.095
+
+[2026-07-12 04:03:48,836][root][INFO] - Epoch 526: duration loss = 0.279 | prior loss = 1.197 | diffusion loss = 0.097
+
+[2026-07-12 04:05:32,477][root][INFO] - Epoch 527: duration loss = 0.279 | prior loss = 1.198 | diffusion loss = 0.094
+
+[2026-07-12 04:07:16,362][root][INFO] - Epoch 528: duration loss = 0.279 | prior loss = 1.197 | diffusion loss = 0.096
+
+[2026-07-12 04:08:59,649][root][INFO] - Epoch 529: duration loss = 0.279 | prior loss = 1.197 | diffusion loss = 0.095
+
+[2026-07-12 04:10:43,185][root][INFO] - Epoch 530: duration loss = 0.279 | prior loss = 1.197 | diffusion loss = 0.095
+
+[2026-07-12 04:12:26,730][root][INFO] - Epoch 531: duration loss = 0.279 | prior loss = 1.197 | diffusion loss = 0.096
+
+[2026-07-12 04:14:09,697][root][INFO] - Epoch 532: duration loss = 0.279 | prior loss = 1.197 | diffusion loss = 0.095
+
+[2026-07-12 04:15:52,498][root][INFO] - Epoch 533: duration loss = 0.279 | prior loss = 1.198 | diffusion loss = 0.096
+
+[2026-07-12 04:17:35,327][root][INFO] - Epoch 534: duration loss = 0.278 | prior loss = 1.198 | diffusion loss = 0.096
+
+[2026-07-12 04:19:18,086][root][INFO] - Epoch 535: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.098
+
+[2026-07-12 04:21:00,323][root][INFO] - Epoch 536: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.095
+
+[2026-07-12 04:22:43,250][root][INFO] - Epoch 537: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.096
+
+[2026-07-12 04:24:26,107][root][INFO] - Epoch 538: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.095
+
+[2026-07-12 04:26:08,605][root][INFO] - Epoch 539: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.094
+
+[2026-07-12 04:27:51,294][root][INFO] - Epoch 540: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.095
+
+[2026-07-12 04:29:34,195][root][INFO] - Epoch 541: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.095
+
+[2026-07-12 04:31:17,229][root][INFO] - Epoch 542: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.095
+
+[2026-07-12 04:32:58,771][root][INFO] - Epoch 543: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.095
+
+[2026-07-12 04:34:40,582][root][INFO] - Epoch 544: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.093
+
+[2026-07-12 04:36:22,035][root][INFO] - Epoch 545: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.095
+
+[2026-07-12 04:38:04,371][root][INFO] - Epoch 546: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.096
+
+[2026-07-12 04:39:46,745][root][INFO] - Epoch 547: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.096
+
+[2026-07-12 04:41:28,867][root][INFO] - Epoch 548: duration loss = 0.278 | prior loss = 1.196 | diffusion loss = 0.095
+
+[2026-07-12 04:43:11,018][root][INFO] - Epoch 549: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.097
+
+[2026-07-12 04:44:53,826][root][INFO] - Epoch 550: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.096
+
+[2026-07-12 04:46:35,767][root][INFO] - Epoch 551: duration loss = 0.278 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 04:48:16,939][root][INFO] - Epoch 552: duration loss = 0.278 | prior loss = 1.196 | diffusion loss = 0.096
+
+[2026-07-12 04:49:58,368][root][INFO] - Epoch 553: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.097
+
+[2026-07-12 04:51:40,217][root][INFO] - Epoch 554: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.095
+
+[2026-07-12 04:53:22,386][root][INFO] - Epoch 555: duration loss = 0.278 | prior loss = 1.197 | diffusion loss = 0.095
+
+[2026-07-12 04:55:04,414][root][INFO] - Epoch 556: duration loss = 0.278 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 04:56:46,189][root][INFO] - Epoch 557: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 04:58:28,483][root][INFO] - Epoch 558: duration loss = 0.278 | prior loss = 1.196 | diffusion loss = 0.096
+
+[2026-07-12 05:00:11,077][root][INFO] - Epoch 559: duration loss = 0.278 | prior loss = 1.196 | diffusion loss = 0.095
+
+[2026-07-12 05:01:53,994][root][INFO] - Epoch 560: duration loss = 0.278 | prior loss = 1.196 | diffusion loss = 0.096
+
+[2026-07-12 05:03:36,029][root][INFO] - Epoch 561: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.095
+
+[2026-07-12 05:05:18,598][root][INFO] - Epoch 562: duration loss = 0.278 | prior loss = 1.196 | diffusion loss = 0.096
+
+[2026-07-12 05:07:01,109][root][INFO] - Epoch 563: duration loss = 0.278 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:08:43,479][root][INFO] - Epoch 564: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:10:25,919][root][INFO] - Epoch 565: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.096
+
+[2026-07-12 05:12:08,256][root][INFO] - Epoch 566: duration loss = 0.278 | prior loss = 1.196 | diffusion loss = 0.096
+
+[2026-07-12 05:13:50,424][root][INFO] - Epoch 567: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.095
+
+[2026-07-12 05:15:32,484][root][INFO] - Epoch 568: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:17:15,253][root][INFO] - Epoch 569: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.093
+
+[2026-07-12 05:18:57,688][root][INFO] - Epoch 570: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.093
+
+[2026-07-12 05:20:39,471][root][INFO] - Epoch 571: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.095
+
+[2026-07-12 05:22:21,439][root][INFO] - Epoch 572: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:24:03,223][root][INFO] - Epoch 573: duration loss = 0.277 | prior loss = 1.195 | diffusion loss = 0.093
+
+[2026-07-12 05:25:45,206][root][INFO] - Epoch 574: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:27:27,246][root][INFO] - Epoch 575: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:29:08,971][root][INFO] - Epoch 576: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.092
+
+[2026-07-12 05:30:51,263][root][INFO] - Epoch 577: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:32:32,727][root][INFO] - Epoch 578: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:34:14,721][root][INFO] - Epoch 579: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:35:56,168][root][INFO] - Epoch 580: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:37:38,684][root][INFO] - Epoch 581: duration loss = 0.277 | prior loss = 1.195 | diffusion loss = 0.094
+
+[2026-07-12 05:39:21,046][root][INFO] - Epoch 582: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.096
+
+[2026-07-12 05:41:03,480][root][INFO] - Epoch 583: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:42:46,140][root][INFO] - Epoch 584: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:44:28,573][root][INFO] - Epoch 585: duration loss = 0.277 | prior loss = 1.195 | diffusion loss = 0.094
+
+[2026-07-12 05:46:10,679][root][INFO] - Epoch 586: duration loss = 0.277 | prior loss = 1.195 | diffusion loss = 0.094
+
+[2026-07-12 05:47:52,704][root][INFO] - Epoch 587: duration loss = 0.276 | prior loss = 1.195 | diffusion loss = 0.093
+
+[2026-07-12 05:49:34,414][root][INFO] - Epoch 588: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.095
+
+[2026-07-12 05:51:16,648][root][INFO] - Epoch 589: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 05:52:58,672][root][INFO] - Epoch 590: duration loss = 0.276 | prior loss = 1.196 | diffusion loss = 0.093
+
+[2026-07-12 05:54:40,961][root][INFO] - Epoch 591: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.095
+
+[2026-07-12 05:56:23,066][root][INFO] - Epoch 592: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.093
+
+[2026-07-12 05:58:05,998][root][INFO] - Epoch 593: duration loss = 0.277 | prior loss = 1.195 | diffusion loss = 0.094
+
+[2026-07-12 05:59:48,253][root][INFO] - Epoch 594: duration loss = 0.276 | prior loss = 1.195 | diffusion loss = 0.095
+
+[2026-07-12 06:01:31,332][root][INFO] - Epoch 595: duration loss = 0.277 | prior loss = 1.195 | diffusion loss = 0.093
+
+[2026-07-12 06:03:13,822][root][INFO] - Epoch 596: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 06:04:56,662][root][INFO] - Epoch 597: duration loss = 0.276 | prior loss = 1.195 | diffusion loss = 0.094
+
+[2026-07-12 06:06:39,099][root][INFO] - Epoch 598: duration loss = 0.277 | prior loss = 1.196 | diffusion loss = 0.094
+
+[2026-07-12 06:08:21,534][root][INFO] - Epoch 599: duration loss = 0.277 | prior loss = 1.195 | diffusion loss = 0.094
+

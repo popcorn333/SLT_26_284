@@ -1,0 +1,13 @@
+complete
+scope=fmDT
+configurations=5
+wavs_per_configuration=488
+summary_rows=5
+loss_epoch_records=2995
+preserved_non_fmdt_loss_records=16772
+preserved_scorex0_loss_records=2995
+audited_predecessor_records=52
+first_depth_run_folders=11
+missing_values=0
+invalid_values=0
+final_audit_job_id=11149890

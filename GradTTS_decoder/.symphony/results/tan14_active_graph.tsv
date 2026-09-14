@@ -1,0 +1,13 @@
+stage	job_id	dependency	status_at_submission	detail
+fmDT_run_array	11116063		SUBMITTED	fresh array tasks 0-4 for model.masking.a=0.2,0.4,0.6,0.8,1 in DTDM_Unet/fmDT
+fmDT_acceptance_gate	11116064	afterok:11116063	PENDING	validates exact task success plus task-start-fresh epochs 1-599, checkpoints, and 488 WAVs per configuration
+fmDT_training_loss	11116065	afterok:11116064	PENDING	replaces fmDT records in training_loss.log with five validated 599-epoch sweeps and validates combined coverage
+fmDT_dispatch	11116066	afterok:11116064	PENDING	extracts five gen/out pairs and submits isolated metric jobs plus WER, UTMOSv2, summary, and final audit dependencies
+failed_collision_recovery	11115675	afterany:11108874:11110476:11110474	FAILED 1:0	failed closed because TAN-12 dispatcher failed before creating a finalizer ledger; submitted no TAN-14 work
+failed_tan12_dispatch	11110474	afterany:11108873:11108874	FAILED 1:0	read-only audit proved its literal $config path bug occurred before any downstream submission
+tan12_run_array	11108874		COMPLETED 0:0	all five tasks wrote only to the distinct DTDM_sgmse/fmDT tree
+superseded_collision_recovery	11115548	afterany:11108874:11110476:11110474	CANCELLED	incorrect TAN-12 ledger repository; never credit
+cancelled_prior_run_array	11110476		CANCELLED	cancelled prior attempt; never credit; fresh replacement array is authoritative
+cancelled_prior_acceptance_gate	11110517	afterok:11110476	CANCELLED	never credit
+cancelled_prior_training_loss	11110518	afterok:11110517	CANCELLED	never credit
+cancelled_prior_dispatch	11110519	afterok:11110517	CANCELLED	never credit

@@ -1,0 +1,2 @@
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet/one-shot/one-shot_inf/model.masking.a:0.2/test/converted/Epoch_495   0.3290 \pm 0.0778
+/mnt/parscratch/users/acp23xt/private/DTDM_Unet/one-shot/one-shot_inf/model.masking.a:0.2/test/converted/Epoch_595   0.3242 \pm 0.0799
