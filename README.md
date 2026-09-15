@@ -1,4 +1,4 @@
-# SLT_26
+# SLT_26_284
 
 This repository contains two decoder implementations for text-to-speech experiments. Each implementation has its own model code, experiment configurations, training scripts, and inference scripts.
 
@@ -81,4 +81,3 @@ Training and inference entry points are provided as `train.py` and `inference.py
 
 [Download model checkpoints from Google Drive](https://drive.google.com/drive/folders/1wwiHbAnYU7OO7Wj7gasy_ZGncf8rfpF3?usp=sharing).
 
-# SLT_26_284
