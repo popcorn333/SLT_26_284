@@ -254,4 +254,3 @@ class TextMelSpeakerBatchCollate(object):
         x_lengths = torch.LongTensor(x_lengths)
         spk = torch.cat(spk, dim=0)
         return {'x': x, 'x_lengths': x_lengths, 'y': y, 'y_lengths': y_lengths, 'spk': spk}
-                                                

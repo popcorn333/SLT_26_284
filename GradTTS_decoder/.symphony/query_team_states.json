@@ -1,3 +1,0 @@
-{
-  "query": "query { team(id: \"3f87b557-5531-446d-916d-93bcc1ed5745\") { states { nodes { id name type } } } }"
-}

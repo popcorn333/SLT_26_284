@@ -1,4 +1,0 @@
-complete
-configurations=5
-epoch_records=2995
-non_fmdt_records_preserved=16772

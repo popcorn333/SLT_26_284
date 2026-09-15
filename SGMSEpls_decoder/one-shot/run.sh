@@ -8,18 +8,16 @@
 #SBATCH --time=0-20:00:00
 export SLURM_EXPORT_ENV=ALL
 module purge
-module load Anaconda3/2022.10
 module load GCC/12.3.0
 module load CUDA/12.4.0
-module load FFmpeg/6.0-GCCcore-12.3.0
 
-source activate CUDA124_sgmsetts
+SGMSE_ENV=/mnt/parscratch/users/acp23xt/private/conda/envs/CUDA124_sgmsetts
+export PATH="$SGMSE_ENV/bin:$PATH"
 
 export CUDA_HOME=$(dirname "$(dirname "$(which nvcc)")")
 export CUDA_PATH="$CUDA_HOME"
 export PATH="$CUDA_HOME/bin:$PATH"
-export LD_LIBRARY_PATH="${CONDA_PREFIX:-/mnt/parscratch/users/acp23xt/private/conda/envs/CUDA124_sgmsetts}/lib:$CUDA_HOME/lib64:${LD_LIBRARY_PATH:-}"
-export LD_PRELOAD="${CONDA_PREFIX:-/mnt/parscratch/users/acp23xt/private/conda/envs/CUDA124_sgmsetts}/lib/libexpat.so.1:${LD_PRELOAD:-}"
+export LD_LIBRARY_PATH="$SGMSE_ENV/lib:$CUDA_HOME/lib64:${LD_LIBRARY_PATH:-}"
 
 export CC=$(which gcc)
 export CXX=$(which g++)

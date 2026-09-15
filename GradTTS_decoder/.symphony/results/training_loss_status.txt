@@ -1,3 +1,0 @@
-complete
-configurations=29
-epoch_records=17371

@@ -1,6 +1,0 @@
-stage	job_id	dependency
-scorex0_epoch495_array_invalid	10975747_[0-4]	CANCELLED before start; submitted payload had invalid Python quoting and is never credited
-scorex0_epoch495_array_cancelled	10975891_[0-4]	CANCELLED by 556348 before start with zero runtime; produced no task logs and is never credited
-scorex0_epoch495_array_payload_incompatible	10987945_[0-4]	CANCELLED before start after a static audit found the submitted payload did not recognize the current ending_epoch-31 inference loop; never credited
-scorex0_epoch495_array	10988661_[0-4]	afterok:10943691
-redo_dispatch	10944226	afterok:10943691:10988661,afterany:10935482

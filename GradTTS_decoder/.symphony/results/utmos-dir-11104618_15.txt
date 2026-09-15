@@ -1,1 +1,0 @@
-/mnt/parscratch/users/acp23xt/private/DTDM_Unet/one-shot/one-shot_inf/model.masking.a:0.2/test/converted/Epoch_595
